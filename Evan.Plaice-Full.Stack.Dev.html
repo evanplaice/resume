@@ -1,264 +1,393 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Evan Plaice</title>
-    <style>
-    html, body, main, section, header, ul, p, h1, h2, h3 {
-  font-family: Calibri, 'Helvetica Neue', Helvetica, 'Segoe UI', sans-serif;
-  font-size: 12px;
-  margin: 0; padding: 0;
-  display: block;
-}
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Evan Plaice</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <style>
+            html, body, main, section, header, ul, p, h1, h2, h3 {
+              font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
+              font-size: 12px;
+              margin: 0; padding: 0;
+              display: block;
+            }
+            
+            a {
+              color: #0064BD;
+              text-decoration: none;
+            }
+            
+            a:visited {
+              color: #7B0796;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            h2 {
+              text-transform: uppercase;
+            }
+            
+            h3 {
+              font-size: 1em;
+            }
+            
+            hr {
+              border: none;
+              border-top: 1px solid #B3B3B3;
+            }
+            
+            main {
+              padding: 15px;
+              max-width: 700px;
+              margin: 0 auto;
+            }
+            
+            section {
+              margin-top: 1em;
+            }
+            
+            li {
+              margin-left: 2em;
+            }
+            
+            p, li {
+              text-align: justify;
+              clear: both;
+            }
+            
+            .tenure {
+              float: right;
+            }
+            
+            thead {
+              display: none;
+            }
+            
+            main > header {
+              width: 100%;
+              float: left;
+              margin-bottom: 0;
+              position: relative;
+            }
+            
+            
+            h3 {
+              display: inline-block;
+              line-height: 1;
+            }
+            #contact {
+              float: right;
+              position: absolute;
+              right: 0;
+              bottom: 0;
+            }
+            
+            #contact > div {
+              display: inline-block;
+              margin-left: 5px;
+            }
+            
+            span.fa {
+              text-align: left;
+              margin-right: 3px;
+              float: left;
+            }
+            
+            section > div {
+              margin-bottom: 1em;
+              clear: both;
+            }
+            
+            span.keywords {
+              font-size: 10px;
+              color: gray;
+              text-align: right;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main>
+            <header>
+                 <h1>Evan Plaice</h1>
 
-a {
-  color: #0064BD;
-  text-decoration: none;
-}
+                <div id="contact">
+                    <div class="email"><a href="mailto:evanplaice@gmail.com">evanplaice@gmail.com</a>
+                    </div>
+                    <div class="phone">7203152863</div>
+                    <div class="website"><a href="http://evanplaice.com">evanplaice.com</a>
+                    </div>
+                </div>
+            </header>
+            <hr>
+            <section id="summary">Full-Stack developer, with 8+ years of experience. I live by a simple
+                principle, &#39;leave it better than you found it&#39;. I&#39;m accustomed
+                to wearing a lot of hats; including greenfield development, leading a team,
+                implementing new techologies, interfacing with customers. I adapt to the
+                domain and needs of business.</section>
+            <hr>
+            <section id="skills">
+                <header> <span class="fa fa-lg fa-code"></span> 
+                     <h2>skills</h2>
 
-a:visited {
-  color: #7B0796;
-}
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Keywords</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="width: 25%;">Frontend</td>
+                            <td class="keywords">Javascript Angular2 Angular.js HTML5 CSS jQuery Bootstrap Semantic-UI</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Backend</td>
+                            <td class="keywords">Javascript Node.js Python WebApp2 PHP</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Database</td>
+                            <td class="keywords">MongoDB Mongoose MySQL MSSQL DataStore ORM</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Desktop/Automation</td>
+                            <td class="keywords">C# Bash Grunt NPM JSPM FTP-Sync S3-Sync</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Cloud</td>
+                            <td class="keywords">AWS-EC2 AWS-S3 AWS-Route53 AWS-IAM AppEngine</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">DevOps</td>
+                            <td class="keywords">Vagrant Puppet Shell-Provisioning</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 25%;">Design</td>
+                            <td class="keywords">Photoshop Illustrator Mockups Logo-Design</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <section id="employment">
+                <header> <span class="fa fa-building"></span> 
+                     <h2>employment</h2>
 
-a:hover {
-  text-decoration: underline;
-}
+                </header>
+                <div>
+                     <h3><em>Lead Installation and Repair Field Technician</em>,
+    <a href="http://wiseconnectinc.com/">WiseConnect Inc.</a>
+    </h3>
+ <span class="tenure">2017-07 — 2017-10</span>
 
-h2 {
-  text-transform: uppercase;
-}
+                    <p>
+                        <p>High speed, low drag copper specialist. Installing DSL and POTS services.</p>
+                    </p>
+                    <ul>
+                        <li>Served over 1K customers</li>
+                        <li>Interfacing with Customers</li>
+                        <li>Qualifying and testing OSP infrastructure</li>
+                        <li>Patching around defective/deficient infrastructure</li>
+                        <li>Connecting and verfiying new services</li>
+                        <li>Repairing and/or upgrading existing services</li>
+                        <li>Installing/configuring modems and equipment</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>DISH Field Technician</em>,
+    <a href="http://www.somesite.com">24 Hour Alert Systems</a>
+    </h3>
+ <span class="tenure">2016-09 — 2017-06</span>
 
-h3 {
-  font-size: 1em;
-}
+                    <p>
+                        <p>DISH Field Technician. Performing satellite installations, repairs, upgrades,
+                            and migrations.</p>
+                    </p>
+                    <ul>
+                        <li>Served 1000-1500 customers</li>
+                    </ul>
+                </div>
+                <div>
+                     <h3><em>Field Service Representative</em>,
+    <a href="http://strikegroup.org">Strike Group LLC.</a>
+    </h3>
+ <span class="tenure">2011-04 — 2015-05</span>
 
-hr {
-  border: none;
-  border-top: 1px solid #B3B3B3;
-}
+                    <p>
+                        <p>West Coast representative for MARCORSYSCOM Combat Camera. Providing logistics
+                            and support.</p>
+                    </p>
+                    <ul>
+                        <li>Field, track, support $5+ million in military hardware</li>
+                        <li>Support 11 units across 6 military installations</li>
+                        <li>Technical SME for the TIPS (Tactical Imagery Production System)</li>
+                        <li>Onsite technical SME for 3 field exercises</li>
+                        <li>Host of semi-annual traning evolutions for the TIPS</li>
+                        <li>Certified Xerox MFD field technician</li>
+                        <li>Setup S3 for monthly distribution of OS images</li>
+                        <li>Author of automation tools for Excel-&gt;PDF form filling</li>
+                        <li>Website redesign with dynamic templating and custom static html compliler</li>
+                    </ul> <span class="keywords">Military Technical-SME Logistics Xerox-Technican Training Field-Support Networking </span>
 
-main {
-  padding: 15px;
-  max-width: 700px;
-  margin: 0 auto;
-}
+                </div>
+                <div>
+                     <h3><em>Electrical Design Technician/Software Developer</em>,
+    <a href="http://jpasims.com">Joel Plaice &amp;amp; Associates Inc.</a>
+    </h3>
+ <span class="tenure">2004-07 — 2010-02</span>
 
-section {
-  margin-top: 1em;
-}
+                    <p>
+                        <p>Hacking on commercial full flight simulators for fun and profit.</p>
+                    </p>
+                    <ul>
+                        <li>Design and implement various avionics and aircraft systems updates</li>
+                        <li>Full Stack development of a website + database backend using a LAMP stack</li>
+                        <li>Full lifecycle product design/architecture/development of a turnkey system</li>
+                        <li>Custom networking protocol design and implementation</li>
+                    </ul> <span class="keywords">Hardware Electrical-Design Web-Design Web-Development Systems-Design Software-Architecture Protocol-Design </span>
 
-li {
-  margin-left: 2em;
-}
+                </div>
+                <div>
+                     <h3><em>Flight Simulator Production Specialist</em>,
+    <a href="http://www.somesite.com">Spiral Aviation Training Company</a>
+    </h3>
+ <span class="tenure">2003-12 — 2004-07</span>
 
-h3 {
-  margin-top: 1em;
-}
+                    <p>
+                        <p>Build commercial full flight simulators. Avionics, cabling, instrument
+                            panels, I/O, and instrument calibrations.</p>
+                    </p> <span class="keywords">Electrical-Technician Quality-Assurance Systems-Engineering </span>
 
-p, li {
-  text-align: justify;
-}
+                </div>
+            </section>
+            <hr>
+            <section id="projects">
+                <header> <span class="fa fa-star"></span> 
+                     <h2>projects</h2>
 
-.tenure {
-  float: right;
-}
-
-thead {
-  display: none;
-}
-
-main > header {
-  width: 100%;
-  float: left;
-  margin-bottom: 0;
-  position: relative;
-}
-
-
-main > header > h1 {
-  float: left;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  line-height: 1;
-}
-#contact {
-  float: right;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-#contact > div {
-  display: inline-block;
-  margin-left: 5px;
-}
-
-h2 > span.fa {
-  text-align: left;
-  margin-right: 3px;
-}
-
-    </style>
-  </head>
-  <body>
-    <main>
-      <header>
-        <h1>Evan Plaice</h1>
-        <div id="contact">
-          <div class="email"><a href="mailto:evanplaice@gmail.com">evanplaice@gmail.com</a></div>
-          <div class="phone">7203148405</div>
-          <div class="website"><a href="http://evanplaice.com">evanplaice.com</a></div>
-        </div>
-      </header>
-
-
-
-<section id="summary">
-  Full-Stack developer, with 8+ years of experience. I live by a simple principle, &#39;leave it better than you found it&#39;. I&#39;m accustomed to wearing a lot of hats; including greenfield development, leading a team, implementing new techologies, interfacing with customers. I adapt to the domain and needs of business.
-</section>
-
-
-
-<section id="skills">
-  <header>
-  <h2><span class="fa fa-code"></span> Skills</h2><hr>
-  </header>
-  <table>
-    <thead>
-      <tr>
-        <th>Skill</th>
-        <th>Keywords</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="width: 25%;">Frontend</td>
-        <td class="keywords">Angular2 Angular.js HTML5 CSS jQuery Bootstrap Semantic </td>
-      </tr>
-      <tr>
-        <td style="width: 25%;">Backend</td>
-        <td class="keywords">Javascript Node.js Python WebApp2 PHP </td>
-      </tr>
-      <tr>
-        <td style="width: 25%;">Database</td>
-        <td class="keywords">MongoDB Mongoose MySQL MSSQL DataStore ORM </td>
-      </tr>
-      <tr>
-        <td style="width: 25%;">Desktop/Automation</td>
-        <td class="keywords">C# Bash Grunt NPM JSPM FTP-Sync S3-Sync </td>
-      </tr>
-      <tr>
-        <td style="width: 25%;">Cloud</td>
-        <td class="keywords">AWS EC2 AWS S3 AWS Route53 AWS IAM AppEngine </td>
-      </tr>
-      <tr>
-        <td style="width: 25%;">Design</td>
-        <td class="keywords">Photoshop Illustrator Mockups Logo Design </td>
-      </tr>
-    </tbody>
-  </table>
-</section>
-
-
-
-<section id="employment">
-  <header>
-  <h2><span class="fa fa-building" style="vertical-align: top;"></span> Employment</h2><hr>
-  </header>
-      <h3><em>Field Service Representative</em>,
-        <a href="http://strikegroup.org">Strike Group LLC.</a>
-        <span class="tenure">2011-04 — 2015-05<span></h3>
-      <p style="clear: both;"><p>West Coast representative for MARCORSYSCOM Combat Camera. Providing logistics and support of the tactical systems.</p>
-</p>
-        <ul>
-          <li>Field, track, support $5+ million in military hardware</li>
-          <li>Support 11 units across 6 military installations</li>
-          <li>Technical SME for the TIPS (Tactical Imagery Production System)</li>
-          <li>Onsite technical SME for 3 field exercises</li>
-          <li>Host of semi-annual traning evolutions for the TIPS</li>
-          <li>Certified Xerox MFD field technician</li>
-          <li>Setup S3 for monthly distribution of OS images</li>
-          <li>Author of automation tools for Excel-&gt;PDF form filling</li>
-          <li>Website redesign with dynamic templating and custom static html compliler</li>
-        </ul>
-      <h3><em>Electrical Design Technician/Software Developer</em>,
-        <a href="http://jpasims.com">Joel Plaice &amp;amp; Associates Inc.</a>
-        <span class="tenure">2004-07 — 2010-02<span></h3>
-      <p style="clear: both;"><p>Hacking on commercial full flight simulators for fun and profit.</p>
-</p>
-        <ul>
-          <li>Design and imlement various avionics and aircraft systems updates</li>
-          <li>Full Stack development of a website + database backend using a LAMP stack</li>
-          <li>Full lifecycle product design/architecture/development of a turnkey system</li>
-          <li>Custom networking protocol design and implementation</li>
-        </ul>
-      <h3><em>Flight Simulator Production Specialist</em>,
-        Spiral Aviation Training Company
-        <span class="tenure">2003-12 — 2004-07<span></h3>
-      <p style="clear: both;"><p>Build commercial full flight simulators. Avionics, cabling, instrument panels, I/O, and instrument calibrations.</p>
-</p>
-</section>
-
-
-
-<section id="projects">
-  <header>
-  <h2><span class="fa fa-star"></span>Projects</h2><hr>
-  </header>
-    <h3><em>Author</em>,
+                </header>
+                <div>
+                     <h3><em>Author</em>,
     <a href="https://github.com/evanplaice/ng2-resume">ng2-resume (OSS)</a>
-    <span class="tenure"></span></h3>
-    <p>Reusable Angular2 Resume component</p>
+    </h3>
+ <span class="tenure">2016-01 — Present</span>
 
-    <h3><em>Author</em>,
+                    <p>
+                        <p>Reusable Angular2 Resume component</p>
+                    </p>
+                    <ul>
+                        <li>Uses the FRESH resume schema</li>
+                        <li>Published to JSPM</li>
+                        <li>JSON Resume support (coming soon)</li>
+                    </ul> <span class="keywords">Javascript Angular2 Git </span>
+
+                </div>
+                <div>
+                     <h3><em>Author</em>,
     <a href="https://github.com/evanplaice/ng2-markdown-component">ng2-markdown (OSS)</a>
-    <span class="tenure"></span></h3>
-    <p>Reusable Angular2 Markdown component</p>
+    </h3>
+ <span class="tenure">2015-01 — Present</span>
 
-    <h3><em>Author</em>,
+                    <p>
+                        <p>Reusable Angular2 Markdown component</p>
+                    </p>
+                    <ul>
+                        <li>Published to JSPM</li>
+                    </ul> <span class="keywords">Javascript Angular2 Git </span>
+
+                </div>
+                <div>
+                     <h3><em>Author</em>,
     <a href="https://github.com/evanplaice/node-ftpsync">node-ftpsync (OSS)</a>
-    <span class="tenure"></span></h3>
-    <p>Intelligent file syncronization over FTP</p>
+    </h3>
+ <span class="tenure">2013-01 — Present</span>
 
-    <h3><em>Author</em>,
+                    <p>
+                        <p>Intelligent file syncronization over FTP</p>
+                    </p>
+                    <ul>
+                        <li>One-command incremental synchronization</li>
+                        <li>Published to NPM</li>
+                        <li>Grunt plugin (grunt-ftpsync) available</li>
+                    </ul> <span class="keywords">Node.js JsFtp Mocha Chai Git </span>
+
+                </div>
+                <div>
+                     <h3><em>Author</em>,
     <a href="https://github.com/evanplaice/jquery-csv">jquery-csv (OSS)</a>
-    <span class="tenure"></span></h3>
-    <p>The first RFC 4180 complete lexer/parser for Javascript. Migrated from Google Code.</p>
+    </h3>
+ <span class="tenure">2012-01 — Present</span>
 
-    <h3><em>Contributor</em>,
+                    <p>
+                        <p>The first RFC 4180 complete lexer/parser for Javascript. Migrated from
+                            Google Code.</p>
+                    </p>
+                    <ul>
+                        <li>500K+ downloads</li>
+                        <li>Published to NPM &amp; Bower</li>
+                        <li>Uses a hand-rolled and optimized DFA, single-pass parser</li>
+                    </ul> <span class="keywords">Javascript QUnit Mocha Chai Mercurial-&gt;Git </span>
+
+                </div>
+                <div>
+                     <h3><em>Contributor</em>,
     <a href="https://github.com/chmorgan/sharppcap">SharpPcap/Packet.Net (OSS)</a>
-    <span class="tenure"></span></h3>
-    <p>Fully managed, cross platform (Windows, Mac, Linux) .NET library for capturing packets</p>
+    </h3>
+ <span class="tenure">2010-01 — 2011-01</span>
 
-    <h3><em>Co-Developer</em>,
+                    <p>
+                        <p>Fully managed, cross platform (Windows, Mac, Linux) .NET library for capturing
+                            packets</p>
+                    </p>
+                    <ul>
+                        <li>Implemented/revised various networking protocols</li>
+                        <li>Added additional unit and performance tests</li>
+                        <li>Added additional examples</li>
+                        <li>Updated documentation via CodePen</li>
+                    </ul> <span class="keywords">C# Mono WinPcap LibPcap NUnit Subversion-&gt;Git </span>
+
+                </div>
+                <div>
+                     <h3><em>Co-Developer</em>,
     Replacement Instructor Operating Station
-    <span class="tenure"></span></h3>
-    <p>A mission critical multi-touchscreen interface for commercial flight simulators.</p>
+    </h3>
+ <span class="tenure">2008-01 — 2009-01</span>
 
-</section>
+                    <p>
+                        <p>A mission critical multi-touchscreen interface for commercial flight simulators.</p>
+                    </p>
+                    <ul>
+                        <li>First full lifecycle greenfield product development</li>
+                        <li>250K in revenue</li>
+                        <li>Architect of all systems, components, IPC, and network communications</li>
+                        <li>Specified, assembled, configured, custom hardware incl hot/cold spares
+                            for redundancy</li>
+                        <li>First turnkey hardware product implementation</li>
+                        <li>Successful acceptance - 90 days @ 99.9% uptime</li>
+                    </ul> <span class="keywords">Hardware Networking Architecture Integration C# MSSQL Subversion MediaWiki </span>
 
+                </div>
+            </section>
+            <hr>
+            <section id="recognition">
+                <header> <span class="fa fa-trophy"></span> 
+                     <h2>recognition</h2>
 
+                </header>
+                <div>
+                     <h3><em>Commendation for Exemplary Performance</em>, USMC</h3>
+ <span class="tenure">2014</span>
 
+                    <p>In regards to the role of technical SME during the first field deployment
+                        of the Tactical Imagery Production System V3.0.</p>
+                </div>
+            </section>
+        </main>
+    </body>
 
-
-
-
-
-
-
-
-
-<section id="awards">
-  <header>
-  <h2><span class="fa fa-trophy"></span> Awards</h2><hr>
-  </header>
-    <h3><em>Commendation for Exemplary Performance</em>, USMC <span class="tenure">2014</span></h3>
-    &lt;p&gt;In regards to the role of technical SME during the first field deployment of the Tactical Imagery Production System V3.0.&lt;/p&gt;
-
-</section>
-
-
-
-    </main>
-  </body>
 </html>

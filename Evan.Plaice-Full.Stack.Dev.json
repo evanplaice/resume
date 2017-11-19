@@ -11,14 +11,14 @@
   },
   "contact": {
     "website": "http://evanplaice.com",
-    "phone": "7207677241",
+    "phone": "7203152863",
     "email": "evanplaice@gmail.com"
   },
   "location": {
-    "address": "701 Sun Up Pl",
-    "city": "Erie",
+    "address": "10200 Park Meadows Dr APT 2612",
+    "city": "Littleton",
     "region": "C0",
-    "code": "80516",
+    "code": "80124",
     "country": "US"
   },
   "social": [
@@ -52,10 +52,51 @@
     "summary": "",
     "history": [
       {
+        "employer": "WiseConnect Inc.",
+        "url": "http://wiseconnectinc.com/",
+        "position": "Lead Installation and Repair Field Technician",
+        "summary": "High speed, low drag copper specialist. Installing DSL and POTS services.",
+        "start": "2017-07",
+        "end": "2017-10",
+        "highlights": [
+          "Served over 1K customers",
+          "Interfacing with Customers",
+          "Qualifying and testing OSP infrastructure",
+          "Patching around defective/deficient infrastructure",
+          "Connecting and verfiying new services",
+          "Repairing and/or upgrading existing services",
+          "Installing/configuring modems and equipment"
+        ],
+        "Keywords": [
+          "Electrical Technician",
+          "Troubleshooting",
+          "Quality Asssurance",
+          "Training"
+        ]
+      },
+      {
+        "employer": "24 Hour Alert Systems",
+        "url": "http://www.somesite.com",
+        "position": "DISH Field Technician",
+        "summary": "DISH Field Technician. Performing satellite installations, repairs, upgrades, and migrations.",
+        "start": "2016-09",
+        "end": "2017-06",
+        "highlights": [
+          "Served 1000-1500 customers"
+        ],
+        "Keywords": [
+          "Electrical Technician",
+          "Troubleshooting",
+          "Quality Asssurance",
+          "Customer Service",
+          "Sales"
+        ]
+      },
+      {
         "employer": "Strike Group LLC.",
         "url": "http://strikegroup.org",
         "position": "Field Service Representative",
-        "summary": "West Coast representative for MARCORSYSCOM Combat Camera. Providing logistics and support of the tactical systems.",
+        "summary": "West Coast representative for MARCORSYSCOM Combat Camera. Providing logistics and support.",
         "start": "2011-04",
         "end": "2015-05",
         "highlights": [
@@ -104,6 +145,7 @@
       },
       {
         "employer": "Spiral Aviation Training Company",
+        "url": "http://www.somesite.com",
         "position": "Flight Simulator Production Specialist",
         "summary": "Build commercial full flight simulators. Avionics, cabling, instrument panels, I/O, and instrument calibrations.",
         "start": "2003-12",
@@ -111,8 +153,7 @@
         "keywords": [
           "Electrical-Technician",
           "Quality-Assurance",
-          "Systems-Engineering",
-          "Software-Architecture"
+          "Systems-Engineering"
         ]
       }
     ]
@@ -204,6 +245,7 @@
       "role": "Contributor",
       "summary": "Fully managed, cross platform (Windows, Mac, Linux) .NET library for capturing packets",
       "start": "2010",
+      "end": "2011",
       "highlights": [
         "Implemented/revised various networking protocols",
         "Added additional unit and performance tests",
@@ -225,6 +267,7 @@
       "role": "Co-Developer",
       "summary": "A mission critical multi-touchscreen interface for commercial flight simulators.",
       "start": "2008",
+      "end": "2009",
       "highlights": [
         "First full lifecycle greenfield product development",
         "250K in revenue",
@@ -258,7 +301,7 @@
           "CSS",
           "jQuery",
           "Bootstrap",
-          "Semantic"
+          "Semantic-UI"
         ]
       },
       {
@@ -301,11 +344,20 @@
         "name": "Cloud",
         "level": "beginner",
         "skills": [
-          "AWS EC2",
-          "AWS S3",
-          "AWS Route53",
-          "AWS IAM",
+          "AWS-EC2",
+          "AWS-S3",
+          "AWS-Route53",
+          "AWS-IAM",
           "AppEngine"
+        ]
+      },
+      {
+        "name": "DevOps",
+        "level": "intermediate",
+        "skills": [
+          "Vagrant",
+          "Puppet",
+          "Shell-Provisioning"
         ]
       },
       {
@@ -315,7 +367,7 @@
           "Photoshop",
           "Illustrator",
           "Mockups",
-          "Logo Design"
+          "Logo-Design"
         ]
       }
     ],
