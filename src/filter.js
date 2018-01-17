@@ -2,11 +2,20 @@ function main() {
 
   var fs = require('fs');
   var path = require('path');
+  var config = require('../resume.config.js');
 
   // collect the command-line args
   var args = process.argv.slice(2);
   var inputFile = args[0];
   var outputFile = args[1];
+  if (!args[0]) {
+    console.log("Error: Missing the input path to [resume].json.");
+    process.exit(1);
+  }
+  if (!args[1]) {
+    console.log("Error: Missing the output path to [resume].json.");
+    process.exit(1);
+  }
 
   // read in the full resume
   var inputPath = path.join(__dirname, inputFile);
