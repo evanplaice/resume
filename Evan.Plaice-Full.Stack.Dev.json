@@ -59,13 +59,8 @@
         "start": "2017-07",
         "end": "2017-10",
         "highlights": [
-          "Served over 1K customers",
-          "Interfacing with Customers",
-          "Qualifying and testing OSP infrastructure",
-          "Patching around defective/deficient infrastructure",
-          "Connecting and verfiying new services",
-          "Repairing and/or upgrading existing services",
-          "Installing/configuring modems and equipment"
+          "Provided leadership, training, and QA for the field techs",
+          "Served 1K+ customers"
         ],
         "Keywords": [
           "Electrical Technician",
@@ -82,7 +77,7 @@
         "start": "2016-09",
         "end": "2017-06",
         "highlights": [
-          "Served 1000-1500 customers"
+          "Served 1.5+ customers"
         ],
         "Keywords": [
           "Electrical Technician",
@@ -100,15 +95,15 @@
         "start": "2011-04",
         "end": "2015-05",
         "highlights": [
-          "Field, track, support $5+ million in military hardware",
-          "Support 11 units across 6 military installations",
-          "Technical SME for the TIPS (Tactical Imagery Production System)",
-          "Onsite technical SME for 3 field exercises",
-          "Host of semi-annual traning evolutions for the TIPS",
+          "Fielded, tracked, and supported $5+ million in military hardware",
+          "Support 11 Combat Camera units across 6 military installations",
+          "Acted as regional SME for the TIPS (Tactical Imagery Production System)",
+          "Provided onsite support 3 field exercises",
+          "Hosted of semi-annual traning evolutions for the TIPS",
           "Certified Xerox MFD field technician",
-          "Setup S3 for monthly distribution of OS images",
-          "Author of automation tools for Excel->PDF form filling",
-          "Website redesign with dynamic templating and custom static html compliler"
+          "Setup and trained coworkers to use S3 for monthly distribution of OS images",
+          "Authored an automation suite for Excel->PDF form filling",
+          "Designed and maintained company website"
         ],
         "keywords": [
           "Military",
@@ -124,23 +119,27 @@
         "employer": "Joel Plaice & Associates Inc.",
         "url": "http://jpasims.com",
         "position": "Electrical Design Technician/Software Developer",
-        "summary": "Hacking on commercial full flight simulators for fun and profit.",
+        "summary": "Hacking on commercial full flight aircraft simulators for fun and profit.",
         "start": "2004-07",
         "end": "2010-02",
         "highlights": [
-          "Design and implement various avionics and aircraft systems updates",
-          "Full Stack development of a website + database backend using a LAMP stack",
-          "Full lifecycle product design/architecture/development of a turnkey system",
-          "Custom networking protocol design and implementation"
+          "Design and implement various avionics and aircraft systems updates incl, EGPWS, TCAS, TAWS, glass, and analog instruments.",
+          "Full Stack development of a website + inventory DB using a LAMP stack",
+          "Full lifecycle product design/architecture/development of milti-touchscreen interface using C#/MSSQL",
+          "Designed and implemented a custom layer2 networking protocol",
+          "Partnered on many projects with Rotran Ltd, packing/installing/relocating and FAA certifying various Full Flight Simulators"
         ],
         "keywords": [
           "Hardware",
           "Electrical-Design",
+          "Electrical-Implementation",
           "Web-Design",
           "Web-Development",
           "Systems-Design",
           "Software-Architecture",
-          "Protocol-Design"
+          "Protocol-Design",
+          "Rigging",
+          "Installation"
         ]
       },
       {
@@ -150,6 +149,9 @@
         "summary": "Build commercial full flight simulators. Avionics, cabling, instrument panels, I/O, and instrument calibrations.",
         "start": "2003-12",
         "end": "2004-07",
+        "highlights": [
+          "Built cabling and installed/calibrated avionics and aircraft systems"
+        ],
         "keywords": [
           "Electrical-Technician",
           "Quality-Assurance",
@@ -165,16 +167,11 @@
       "url": "https://github.com/evanplaice/ng2-resume",
       "repo": "https://github.com/evanplaice/ng2-resume",
       "role": "Author",
-      "summary": "Reusable Angular2 Resume component",
+      "summary": "Reusable Angular Resume component using the FRESCA format",
       "start": "2016",
-      "highlights": [
-        "Uses the FRESH resume schema",
-        "Published to JSPM",
-        "JSON Resume support (coming soon)"
-      ],
       "keywords": [
         "Javascript",
-        "Angular2",
+        "Angular",
         "Git"
       ]
     },
@@ -184,7 +181,7 @@
       "url": "https://github.com/evanplaice/ng2-markdown-component",
       "repo": "https://github.com/evanplaice/ng2-markdown-component",
       "role": "Author",
-      "summary": "Reusable Angular2 Markdown component",
+      "summary": "Reusable Angular Markdown component with syntax highlighting",
       "start": "2015",
       "highlights": [
         "Published to JSPM"
@@ -205,8 +202,8 @@
       "start": "2013",
       "highlights": [
         "One-command incremental synchronization",
-        "Published to NPM",
-        "Grunt plugin (grunt-ftpsync) available"
+        "Grunt wrapper (grunt-ftpsync) available",
+        "Published to NPM"
       ],
       "keywords": [
         "Node.js",
@@ -226,8 +223,8 @@
       "start": "2012",
       "highlights": [
         "500K+ downloads",
-        "Published to NPM & Bower",
-        "Uses a hand-rolled and optimized DFA, single-pass parser"
+        "Efficient hand-rolled DFA parser",
+        "Published to NPM, Bower, CDNJS, Maven, Ruby Gems"
       ],
       "keywords": [
         "Javascript",
@@ -291,11 +288,22 @@
   "skills": {
     "sets": [
       {
+        "name": "Languages",
+        "level": "advanced",
+        "skills": [
+          "Javscript",
+          "ES+",
+          "Python",
+          "C#",
+          "PHP",
+          "BASIC"
+        ]
+      },
+      {
         "name": "Frontend",
         "level": "advanced",
         "skills": [
-          "Javascript",
-          "Angular2",
+          "Angular",
           "Angular.js",
           "HTML5",
           "CSS",
@@ -308,47 +316,22 @@
         "name": "Backend",
         "level": "advanced",
         "skills": [
-          "Javascript",
           "Node.js",
-          "Python",
-          "WebApp2",
-          "PHP"
+          "Symfony",
+          "BoltCMS",
+          "WebApp2"
         ]
       },
       {
         "name": "Database",
         "level": "intermediate",
         "skills": [
+          "MySQL",
           "MongoDB",
           "Mongoose",
-          "MySQL",
           "MSSQL",
-          "DataStore",
+          "Google DataStore",
           "ORM"
-        ]
-      },
-      {
-        "name": "Desktop/Automation",
-        "level": "intermediate",
-        "skills": [
-          "C#",
-          "Bash",
-          "Grunt",
-          "NPM",
-          "JSPM",
-          "FTP-Sync",
-          "S3-Sync"
-        ]
-      },
-      {
-        "name": "Cloud",
-        "level": "beginner",
-        "skills": [
-          "AWS-EC2",
-          "AWS-S3",
-          "AWS-Route53",
-          "AWS-IAM",
-          "AppEngine"
         ]
       },
       {
@@ -357,29 +340,66 @@
         "skills": [
           "Vagrant",
           "Puppet",
-          "Shell-Provisioning"
+          "AWS",
+          "Bash"
+        ]
+      },
+      {
+        "name": "Automation",
+        "level": "intermediate",
+        "skills": [
+          "NPM",
+          "JSPM",
+          "Webpack",
+          "System.js",
+          "FTP-Sync",
+          "S3-Sync",
+          "Grunt"
         ]
       },
       {
         "name": "Design",
-        "level": "beginner",
+        "level": "intermediate",
         "skills": [
           "Photoshop",
           "Illustrator",
           "Mockups",
           "Logo-Design"
         ]
+      },
+      {
+        "name": "Cloud",
+        "level": "intermediate",
+        "skills": [
+          "AWS-EC2",
+          "AWS-S3",
+          "AWS-Route53",
+          "AWS-IAM",
+          "Google AppEngine"
+        ]
       }
     ],
     "list": [
       {
-        "name": "Javascript (ES6)",
-        "level": "Intermediate",
-        "summary": "The lates ECMA Script standard",
-        "years": "1"
+        "name": "HTML",
+        "level": "Advanced",
+        "summary": "Declarative language for content on the front-end",
+        "years": "10+"
       },
       {
-        "name": "python",
+        "name": "CSS",
+        "level": "Advanced",
+        "summary": "Declarative language for design/layout on the front-end",
+        "years": "10+"
+      },
+      {
+        "name": "Javascript (ES6+)",
+        "level": "Advanced",
+        "summary": "The latest ECMA Script standard + future proposals.",
+        "years": "5+"
+      },
+      {
+        "name": "Python",
         "level": "Intermediate",
         "summary": "Dynamically typed OOP language",
         "years": "2"
@@ -391,34 +411,22 @@
         "years": "2"
       },
       {
-        "name": "Java",
-        "level": "Beginner",
-        "summary": "Statically typed OOP language",
-        "years": "1"
-      },
-      {
         "name": "PHP",
         "level": "Intermediate",
         "summary": "Dynamically typed back-end scripting language.",
         "years": "2"
       },
       {
-        "name": "HTML",
-        "level": "Advanced",
-        "summary": "Declarative language for content on the front-end",
-        "years": "10"
-      },
-      {
-        "name": "CSS",
-        "level": "Intermediate",
-        "summary": "Declarative language for design/layout on the front-end",
-        "years": "10"
+        "name": "Java",
+        "level": "Beginner",
+        "summary": "Statically typed OOP language",
+        "years": "1"
       },
       {
         "name": "Bash",
         "level": "Intermediate",
         "summary": "Automation scripting for Linux/Unix systems",
-        "years": "6"
+        "years": "5+"
       }
     ]
   },
@@ -430,7 +438,7 @@
       "date": "2016",
       "keywords": [
         "Javascript",
-        "Angular2",
+        "Angular",
         "Semantic-UI",
         "ES6",
         "Amazon S3"
@@ -499,10 +507,6 @@
     {
       "name": "Rock Climbing",
       "summary": "Rock climb in local gyms, have been on trips to Holcomb Valley; Red Rocks, NV; and Joshua Tree"
-    },
-    {
-      "name": "Motorcycles",
-      "summary": "Doing coastal cruises on my old R6 and occasional cruises up to the twisties on Palomar Mountain and Banner Grade"
     },
     {
       "name": "Snowboarding",
