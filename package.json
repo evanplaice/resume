@@ -10,7 +10,8 @@
   },
   "scripts": {
     "install": "npm install hacksalot/hackmyresume#dev -g",
-    "validate": "hackmyresume VALIDATE Evan.Plaice-Full.Stack.Dev.json",
+    "setup": "node ./src/setup.js",
+    "validate": "hackmyresume VALIDATE Evan.Plaice-Full.Stack.Dev.json.json",
     "build": "npm run build:trim && npm run build:test && npm run build:build && npm run build:clean",
     "build:trim": "node ./src/filter.js ../Evan.Plaice-Full.Stack.Dev.json ./dist/tmp.json",
     "build:test": "hackmyresume VALIDATE ./dist/tmp.json",
