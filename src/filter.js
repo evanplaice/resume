@@ -1,50 +1,5 @@
-const sections = [
-  'name',
-  'meta',
-  'info',
-  'contact',
-  // 'location',
-  'employment',
-  'projects',
-  'skills',
-  // 'education',
-  // 'affiliation',
-  // 'service',
-  // 'disposition',
-  // 'writing',
-  // 'reading',
-  // 'speaking',
-  // 'governance',
-  'recognition',
-  // 'samples',
-  // 'social',
-  // 'references',
-  // 'testimonials',
-  // 'extracurricular',
-  // 'interests',
-  // 'languages';
-];
-
-const jobs = [
-  'WiseConnect Inc.',
-  //'24 Hour Alert Systems',
-  'Strike Group LLC.',
-  'Joel Plaice & Associates Inc.',
-  //'Spiral Aviation Training Company'
-];
-
-const projects = [
-  //'ng2-resume (OSS)',
-  'ng2-markdown (OSS)',
-  'node-ftpsync (OSS)',
-  'jquery-csv (OSS)',
-  'SharpPcap/Packet.Net (OSS)',
-  'Replacement Instructor Operating Station'
-];
-
-// --------------------------
-
 function main() {
+
   var fs = require('fs');
   var path = require('path');
 
@@ -58,9 +13,9 @@ function main() {
   var resume = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
 
   // filter content
-  var resume = trimResume(resume, sections);
-  var resume = trimEmployment(resume, jobs);
-  var resume = trimProjects(resume, projects);
+  var resume = trimResume(resume, config.sections);
+  var resume = trimEmployment(resume, config.jobs);
+  var resume = trimProjects(resume, config.projects);
 
   // write the results to file
   fs.writeFile(outputFile, JSON.stringify(resume, null, 2), (err) => {
