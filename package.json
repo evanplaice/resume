@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Evan Plaice",
   "license": "CC BY-SA",
-  "dependencies": {
+  "devDependencies": {
     "fresca": "^0.3.0"
   },
   "scripts": {
