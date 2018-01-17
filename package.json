@@ -11,13 +11,10 @@
   "scripts": {
     "install": "npm install hacksalot/hackmyresume#dev -g",
     "validate": "hackmyresume VALIDATE Evan.Plaice-Full.Stack.Dev.json",
-    "update": "npm run update:trim && npm run update:build && npm run update:clean",
-    "update:trim": "node filter.js Evan.Plaice-Full.Stack.Dev.json tmp.json",
-    "update:build": "hackmyresume BUILD tmp.json TO Evan.Plaice-Full.Stack.Dev.html Evan.Plaice-Full.Stack.Dev.pdf -t compact",
-    "update:clean": "rm compact-html.css && rm compact-pdf.css && rm Evan.Plaice-Full.Stack.Dev.pdf.html && rm tmp.json",
-    "preview": "npm run preview:trim && npm run preview:build && npm run preview:clean",
-    "preview:trim": "node filter.js Evan.Plaice-Full.Stack.Dev.json preview/resume.json",
-    "preview:build": "hackmyresume BUILD preview/resume.json TO preview/resume.html preview/resume.pdf -t compact",
-    "preview:clean": "rm preview/compact-html.css && rm preview/resume.pdf.html && rm preview/compact-pdf.css"
+    "build": "npm run build:trim && npm run build:test && npm run build:build && npm run build:clean",
+    "build:trim": "node filter.js Evan.Plaice-Full.Stack.Dev.json ./dist/tmp.json",
+    "build:test": "hackmyresume VALIDATE ./dist/tmp.json",
+    "build:build": "hackmyresume BUILD ./dist/tmp.json TO ./dist/Evan.Plaice-Full.Stack.Dev.html ./dist/Evan.Plaice-Full.Stack.Dev.pdf -t compact",
+    "build:clean": "rm ./dist/compact-html.css && rm ./dist/compact-pdf.css && rm ./dist/Evan.Plaice-Full.Stack.Dev.pdf.html && rm ./dist/tmp.json"
   }
 }
