@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A repo to track my resume",
   "main": "index.js",
   "author": "Evan Plaice",
@@ -12,8 +12,8 @@
     "install": "npm install hacksalot/hackmyresume#dev -g",
     "setup": "node ./src/setup.js",
     "validate": "hackmyresume VALIDATE Evan.Plaice-Full.Stack.Dev.json.json",
-    "build": "npm run build:trim && npm run build:test && npm run build:build && npm run build:clean",
-    "build:trim": "node ./src/filter.js ../Evan.Plaice-Full.Stack.Dev.json ./dist/tmp.json",
+    "build": "npm run build:filter && npm run build:test && npm run build:build && npm run build:clean",
+    "build:filter": "node ./src/filter.js ../Evan.Plaice-Full.Stack.Dev.json ./dist/tmp.json",
     "build:test": "hackmyresume VALIDATE ./dist/tmp.json",
     "build:build": "hackmyresume BUILD ./dist/tmp.json TO ./dist/Evan.Plaice-Full.Stack.Dev.html ./dist/Evan.Plaice-Full.Stack.Dev.pdf -t compact",
     "build:clean": "rm ./dist/compact-html.css && rm ./dist/compact-pdf.css && rm ./dist/Evan.Plaice-Full.Stack.Dev.pdf.html && rm ./dist/tmp.json"
