@@ -46,13 +46,11 @@ function trimResume(resume, sections) {
 
 // list [num] number of employment entries
 function trimEmployment(resume, jobs) {
-  for (key in resume) {
-    if (key === "employment") {
-      resume[key].history = resume[key].history.filter((job) => {
-        return jobs.contains(job.employer);
-      });
-    }
-  }
+  resume.employment.history = resume.employment.history
+    .filter((job) => {
+      return jobs.contains(job.employer);
+    });
+
   return resume;
 }
 
