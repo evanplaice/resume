@@ -40,9 +40,8 @@ function main() {
 // filter out unwanted sections
 function trimResume(resume, sections) {
   return Object.filterByKey(resume, key => {
-    return sections.contains(key);
+    return sections.includes(key);
   });
-  console.log(resume);
 }
 
 // list [num] number of employment entries
