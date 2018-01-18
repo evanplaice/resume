@@ -37,16 +37,6 @@ function main() {
 // content filters
 // --------------------------
 
-Object.prototype.filterByKey = function (obj, predicate) {
-  return Object.keys(obj)
-    .filter(key => predicate(key))
-    .reduce((out, key) => {
-      out[key] = obj[key];
-      return out;
-    }, {});
-}
-
-
 // filter out unwanted sections
 function trimResume(resume, sections) {
   return Object.filterByKey(resume, key => {
@@ -81,19 +71,38 @@ function trimProjects(resume, projects) {
 // helpers
 // --------------------------
 
-Object.prototype.filterByKey = function (obj, predicate) {
-  return Object.keys(obj)
-    .filter(key => predicate(key))
-    .reduce((out, key) => {
-      out[key] = obj[key];
-      return out;
-    }, {});
-}
-
 // comparator to see if array contains an entry
 Array.prototype.contains = function(obj) {
   return this.indexOf(obj) > -1;
 };
+
+Object.prototype.filterByKey = function (obj ,predicate) {
+  return Object.entries(obj)
+    .filter(obj => predicate(obj[0]))
+    .fromEntries();
+}
+
+Object.prototype.fromEntries = function () {
+  return this.valueOf()
+    .reduce((out, obj) => {
+      out[obj[0]] = obj.slice(1)[0];
+      return out;
+    }, {});
+}
+
+// Object.prototype.filterByKey = function (obj, predicate) {
+//   return Object.keys(obj)
+//     .filter(key => predicate(key))
+//     .fromKeys(obj);
+// }
+
+// Object.prototype.fromKeys = function (obj) {
+//   return this.valueOf()
+//     .reduce((out, key) => {
+//       out[key] = obj[key];
+//       return out;
+//     }, {});
+// }
 
 // entry
 // --------------------------
