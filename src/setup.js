@@ -4,7 +4,7 @@ var config = require('../package.json');
 
 // collect the command-line args
 var args = process.argv.slice(2);
-if (!args[1]) {
+if (!args[0]) {
   console.log("Error: Missing the input path to [resume].json.");
   process.exit(1);
 }
