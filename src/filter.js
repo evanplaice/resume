@@ -1,8 +1,8 @@
-function main() {
+var fs = require('fs');
+var path = require('path');
+var config = require('../resume.config.js');
 
-  var fs = require('fs');
-  var path = require('path');
-  var config = require('../resume.config.js');
+function main() {
 
   // collect the command-line args
   var args = process.argv.slice(2);
