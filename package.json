@@ -6,6 +6,7 @@
   "author": "Evan Plaice",
   "license": "CC BY-SA",
   "devDependencies": {
+    "hackmyresume": "^1.8.0",
     "fresca": "^0.3.0"
   },
   "scripts": {
