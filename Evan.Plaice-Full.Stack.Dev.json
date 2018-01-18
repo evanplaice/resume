@@ -55,18 +55,21 @@
         "employer": "WiseConnect Inc.",
         "url": "http://wiseconnectinc.com/",
         "position": "Lead Installation and Repair Field Technician",
-        "summary": "High speed, low drag copper specialist. Installing DSL and POTS services.",
+        "summary": "High speed, low drag copper specialist. Installing Century Link DSL and POTS services.",
         "start": "2017-07",
         "end": "2017-10",
         "highlights": [
           "Provided leadership, training, and QA for the field techs",
           "Served 1K+ customers"
         ],
-        "Keywords": [
-          "Electrical Technician",
+        "keywords": [
+          "Installation",
+          "Repair",
           "Troubleshooting",
           "Quality Asssurance",
-          "Training"
+          "Training",
+          "Leadership",
+          "Customer Service"
         ]
       },
       {
@@ -79,8 +82,9 @@
         "highlights": [
           "Served 1.5+ customers"
         ],
-        "Keywords": [
-          "Electrical Technician",
+        "keywords": [
+          "Installation",
+          "Repair",
           "Troubleshooting",
           "Quality Asssurance",
           "Customer Service",
@@ -107,12 +111,11 @@
         ],
         "keywords": [
           "Military",
-          "Technical-SME",
           "Logistics",
-          "Xerox-Technican",
           "Training",
+          "Networking",
           "Field-Support",
-          "Networking"
+          "Xerox-Certified"
         ]
       },
       {
@@ -131,15 +134,15 @@
         ],
         "keywords": [
           "Hardware",
-          "Electrical-Design",
-          "Electrical-Implementation",
-          "Web-Design",
-          "Web-Development",
-          "Systems-Design",
-          "Software-Architecture",
-          "Protocol-Design",
+          "Electrical",
+          "Design",
+          "Implementation",
           "Rigging",
-          "Installation"
+          "Installation",
+          "Software",
+          "Development",
+          "Architecture",
+          "Integration"
         ]
       },
       {
@@ -153,9 +156,12 @@
           "Built cabling and installed/calibrated avionics and aircraft systems"
         ],
         "keywords": [
-          "Electrical-Technician",
+          "Hardware",
+          "Electrical",
+          "Implementation",
           "Quality-Assurance",
-          "Systems-Engineering"
+          "Integration",
+          "Calibration"
         ]
       }
     ]
@@ -188,8 +194,9 @@
       ],
       "keywords": [
         "Javascript",
-        "Angular2",
-        "Git"
+        "Angular",
+        "Git",
+        "Webpack"
       ]
     },
     {
@@ -231,7 +238,8 @@
         "QUnit",
         "Mocha",
         "Chai",
-        "Mercurial->Git"
+        "Mercurial",
+        "Git"
       ]
     },
     {
@@ -255,7 +263,8 @@
         "WinPcap",
         "LibPcap",
         "NUnit",
-        "Subversion->Git"
+        "Git",
+        "Subversion"
       ]
     },
     {
@@ -275,6 +284,8 @@
       ],
       "keywords": [
         "Hardware",
+        "Software",
+        "Design",
         "Networking",
         "Architecture",
         "Integration",
@@ -291,12 +302,15 @@
         "name": "Languages",
         "level": "advanced",
         "skills": [
+          "HTML5",
+          "CSS",
           "Javscript",
           "ES+",
           "Python",
           "C#",
           "PHP",
-          "BASIC"
+          "BASIC",
+          "Profanity"
         ]
       },
       {
@@ -305,8 +319,6 @@
         "skills": [
           "Angular",
           "Angular.js",
-          "HTML5",
-          "CSS",
           "jQuery",
           "Bootstrap",
           "Semantic-UI"
@@ -317,6 +329,7 @@
         "level": "advanced",
         "skills": [
           "Node.js",
+          "Express",
           "Symfony",
           "BoltCMS",
           "WebApp2"
@@ -326,12 +339,14 @@
         "name": "Database",
         "level": "intermediate",
         "skills": [
+          "SQL",
+          "MSSQL",
           "MySQL",
+          "Doctrine",
+          "NoSQL",
           "MongoDB",
           "Mongoose",
-          "MSSQL",
-          "Google DataStore",
-          "ORM"
+          "DataStore"
         ]
       },
       {
@@ -358,6 +373,17 @@
         ]
       },
       {
+        "name": "QA/Testing",
+        "level": "intermediate",
+        "skills": [
+          "NUnit",
+          "JSUnit",
+          "JUnit",
+          "Mocha",
+          "Chai"
+        ]
+      },
+      {
         "name": "Design",
         "level": "intermediate",
         "skills": [
@@ -371,11 +397,13 @@
         "name": "Cloud",
         "level": "intermediate",
         "skills": [
-          "AWS-EC2",
-          "AWS-S3",
-          "AWS-Route53",
-          "AWS-IAM",
-          "Google AppEngine"
+          "AWS",
+          "EC2",
+          "S3",
+          "Route53",
+          "IAM",
+          "gCloud",
+          "AppEngine"
         ]
       }
     ],
