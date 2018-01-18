@@ -3,7 +3,6 @@ var path = require('path');
 var config = require('../resume.config.js');
 
 function main() {
-
   // collect the command-line args
   var args = process.argv.slice(2);
   var inputFile = args[0];
@@ -55,13 +54,11 @@ function trimEmployment(resume, jobs) {
 }
 
 function trimProjects(resume, projects) {
-  for (key in resume) {
-    if (key === "projects") {
-      resume[key] = resume[key].filter((project) => {
-        return projects.contains(project.title);
-      });
-    }
-  }
+  resume.projects = resume.projects
+    .filter((project) => {
+      return projects.contains(project.title);
+    });
+
   return resume;
 }
 
