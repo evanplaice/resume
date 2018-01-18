@@ -16,9 +16,9 @@ var packagePath = path.join(__dirname, '../package.json');
 var package = JSON.parse(fs.readFileSync(packagePath, 'utf8'));
 
 // build the scripts
-package.scripts['validate'] = `hackmyresume VALIDATE ${source}.json`;
+package.scripts['validate'] = `npx hackmyresume VALIDATE ${source}`;
 package.scripts['build:filter'] = `node ./src/filter.js ../${source} ./dist/tmp.json`;
-package.scripts['build:build'] = `hackmyresume BUILD ./dist/tmp.json TO ./dist/${name}.html ./dist/${name}.pdf -t compact`;
+package.scripts['build:build'] = `npx hackmyresume BUILD ./dist/tmp.json TO ./dist/${name}.html ./dist/${name}.pdf -t compact`;
 package.scripts['build:clean'] = `rm ./dist/compact-html.css && rm ./dist/compact-pdf.css && rm ./dist/${name}.pdf.html && rm ./dist/tmp.json`;
 
 // write the scripts back to package.json
