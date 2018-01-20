@@ -1,4 +1,5 @@
 module.exports = {
+  noDates: true,
   sections: [
     'name',
     'meta',
@@ -16,7 +17,7 @@ module.exports = {
     // 'reading',
     // 'speaking',
     // 'governance',
-    'recognition',
+    //'recognition',
     // 'samples',
     // 'social',
     // 'references',
@@ -34,10 +35,10 @@ module.exports = {
   ],
   projects: [
     //'ng2-resume (OSS)',
-    'ng2-markdown (OSS)',
+    //'ng2-markdown (OSS)',
     'node-ftpsync (OSS)',
     'jquery-csv (OSS)',
     'SharpPcap/Packet.Net (OSS)',
-    'Replacement Instructor Operating Station'
+    'Replacement Instructor Operating Station (Proprietary)'
   ]
 }

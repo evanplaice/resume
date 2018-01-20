@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Full Stack Developer",
-    "brief": "Full-Stack developer, with 8+ years of experience. I live by a simple principle, 'leave it better than you found it'. I'm accustomed to wearing a lot of hats; including greenfield development, leading a team, implementing new techologies, interfacing with customers. I adapt to the domain and needs of business.",
+    "brief": "Full-Stack developer w/ 5+ years of experience. Flight Simulator IO specialist, and Military Contractor 'go-to guy' in a past life. Open Source Software Ninja. Problem solver. Leader when necessary. Accustomed to, working on small specialized teams, interfacing with customers, quickly adapting to a new technologies, and working on the bleeding-edge.",
     "quote": "Leave it better than you found it"
   },
   "contact": {
@@ -126,7 +126,7 @@
         "start": "2004-07",
         "end": "2010-02",
         "highlights": [
-          "Design and implement various avionics and aircraft systems updates incl, EGPWS, TCAS, TAWS, glass, and analog instruments.",
+          "Design/implement various avionics and aircraft systems updates incl, EGPWS, TCAS, TAWS, glass, analog, etc",
           "Full Stack development of a website + inventory DB using a LAMP stack",
           "Full lifecycle product design/architecture/development of milti-touchscreen interface using C#/MSSQL",
           "Designed and implemented a custom layer2 networking protocol",
@@ -268,7 +268,7 @@
       ]
     },
     {
-      "title": "Replacement Instructor Operating Station",
+      "title": "Replacement Instructor Operating Station (Proprietary)",
       "category": "Proprietary",
       "role": "Co-Developer",
       "summary": "A mission critical multi-touchscreen interface for commercial flight simulators.",
