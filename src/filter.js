@@ -25,6 +25,10 @@ function main() {
   var resume = trimEmployment(resume, config.jobs);
   var resume = trimProjects(resume, config.projects);
 
+  if (config.noDates) {
+    var resume = trimDates(resume);
+  }
+
   // write the results to file
   fs.writeFile(outputFile, JSON.stringify(resume, null, 2), (err) => {
     if (err) {
@@ -57,6 +61,17 @@ function trimProjects(resume, projects) {
   resume.projects = resume.projects
     .filter((project) => {
       return projects.contains(project.title);
+    });
+
+  return resume;
+}
+
+function trimDates(resume) {
+  resume.employment.history = resume.employment.history
+    .map((job) => {
+      return Object.filterByKey(job, (key) => {
+          return (key !== 'start' && key !== 'end');
+        })
     });
 
   return resume;
