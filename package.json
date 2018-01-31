@@ -10,7 +10,6 @@
     "fresca": "^0.3.0"
   },
   "scripts": {
-    "install": "npm install hacksalot/hackmyresume#dev -g",
     "setup": "node ./src/setup.js",
     "validate": "npx hackmyresume VALIDATE Evan.Plaice-Full.Stack.Dev.json",
     "build": "npm run validate && npm run build:filter && npm run build:build && npm run build:clean",
