@@ -6,8 +6,8 @@
   "author": "Evan Plaice",
   "license": "CC BY-SA",
   "devDependencies": {
-    "hackmyresume": "^1.8.0",
-    "fresca": "^0.3.0"
+    "fresca": "^0.3.1",
+    "hackmyresume": "^1.8.0"
   },
   "scripts": {
     "setup": "node ./src/setup.js",
