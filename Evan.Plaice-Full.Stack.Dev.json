@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Full Stack Developer",
-    "brief": "Full-Stack developer w/ 5+ years of experience. Flight Simulator IO specialist, and Military Contractor 'go-to guy' in a past life. Open Source Software Ninja. Problem solver. Leader when necessary. Accustomed to, working on small specialized teams, interfacing with customers, quickly adapting to a new technologies, and working on the bleeding-edge.",
+    "brief": "Mid-Level Full-Stack Developer (2+ years FTE, 8+ years OpenSource). Specialities: Networking, Parsing, Application Development. Former, Flight Simulator IO specialist, Military Logistics Specialist, Telecomm Tech Lead. Open Source Software Enthusiast. Problem solver. Leader when necessary. Accustomed to, working on small specialized teams, interfacing with customers, quickly adapting to a new technologies, and working on the bleeding-edge.",
     "quote": "Leave it better than you found it"
   },
   "contact": {
@@ -15,10 +15,10 @@
     "email": "evanplaice@gmail.com"
   },
   "location": {
-    "address": "10200 Park Meadows Dr APT 2612",
-    "city": "Littleton",
+    "address": "15849 E Jamison Dr",
+    "city": "Englewood",
     "region": "C0",
-    "code": "80124",
+    "code": "80112",
     "country": "US"
   },
   "social": [
@@ -51,6 +51,30 @@
   "employment": {
     "summary": "",
     "history": [
+      {
+        "employer": "Coder Inc.",
+        "url": "http://www.coder.com",
+        "position": "Javascript Engineer",
+        "summary": "Worked (100% Remote) on the FrontEnd team to implement features for the Editor (Monaco/Typescript) as well as the website FrontEnd (React/Typescript/Mobx).",
+        "start": "2018-02",
+        "end": "2018-09",
+        "highlights": [
+          "Implemented many of the visual designs represented in the production app",
+          "Greatly improved the system for serialization/deserialization of global application state",
+          "Implemented the foundations of a plugin framework for 3rd party modules",
+          "Contributed solutions for many pain points ex. svg loading, bundle size, scss standardization/performance, etc.",
+          "Fixed a regular stream of bugs as well as wrote unit tests (karma) and co-developed the scaffold for E2E testing (selenium)",
+          "Worked through the earlier disogranized stages through the initial production launch" 
+        ],
+        "keywords": [
+          "Software",
+          "FrontEnd",
+          "Typescript",
+          "React",
+          "Agile",
+          "Startup"
+        ]
+      },
       {
         "employer": "WiseConnect Inc.",
         "url": "http://wiseconnectinc.com/",
@@ -119,7 +143,7 @@
         ]
       },
       {
-        "employer": "Joel Plaice & Associates Inc.",
+        "employer": "Joel Plaice and Associates Inc.",
         "url": "http://jpasims.com",
         "position": "Electrical Design Technician/Software Developer",
         "summary": "Hacking on commercial full flight aircraft simulators for fun and profit.",
@@ -168,6 +192,20 @@
   },
   "projects": [
     {
+      "title": "absurdum (OSS)",
+      "category": "Open Source",
+      "url": "https://github.com/evanplaice/absurdum",
+      "repo": "https://github.com/evanplaice/absurdum",
+      "role": "Author",
+      "summary": "A collection of functional operators implemented using only reduce",
+      "start": "2018",
+      "keywords": [
+        "Javascript",
+        "ES",
+        "Functional"
+      ]
+    },
+    {
       "title": "ng2-resume (OSS)",
       "category": "Open Source",
       "url": "https://github.com/evanplaice/ng2-resume",
@@ -177,8 +215,7 @@
       "start": "2016",
       "keywords": [
         "Javascript",
-        "Angular",
-        "Git"
+        "Angular"
       ]
     },
     {
@@ -195,7 +232,6 @@
       "keywords": [
         "Javascript",
         "Angular",
-        "Git",
         "Webpack"
       ]
     },
@@ -302,10 +338,11 @@
         "name": "Languages",
         "level": "advanced",
         "skills": [
+          "Javscript",
+          "ES",
+          "Typescript",
           "HTML5",
           "CSS",
-          "Javscript",
-          "ES+",
           "Python",
           "C#",
           "PHP",
@@ -317,6 +354,7 @@
         "name": "Frontend",
         "level": "advanced",
         "skills": [
+          "React",
           "Angular",
           "Angular.js",
           "jQuery",
@@ -353,22 +391,21 @@
         "name": "DevOps",
         "level": "intermediate",
         "skills": [
-          "Vagrant",
+          "Docker",
           "Puppet",
           "AWS",
-          "Bash"
+          "GCloud"
         ]
       },
       {
         "name": "Automation",
-        "level": "intermediate",
+        "level": "advanced",
         "skills": [
+          "Bash",
           "NPM",
-          "JSPM",
           "Webpack",
-          "System.js",
-          "FTP-Sync",
-          "S3-Sync",
+          "Vagrant",
+          "Puppet",
           "Grunt"
         ]
       },
@@ -376,11 +413,14 @@
         "name": "QA/Testing",
         "level": "intermediate",
         "skills": [
+          "Jest",
+          "Selenium",
+          "Tape",
+          "Mocha",
+          "Chai",
           "NUnit",
           "JSUnit",
-          "JUnit",
-          "Mocha",
-          "Chai"
+          "JUnit"
         ]
       },
       {
@@ -411,19 +451,19 @@
       {
         "name": "HTML",
         "level": "Advanced",
-        "summary": "Declarative language for content on the front-end",
+        "summary": "Declarative language for front-end content",
         "years": "10+"
       },
       {
         "name": "CSS",
         "level": "Advanced",
-        "summary": "Declarative language for design/layout on the front-end",
+        "summary": "Declarative language for front-end design/layout",
         "years": "10+"
       },
       {
-        "name": "Javascript (ES6+)",
-        "level": "Advanced",
-        "summary": "The latest ECMA Script standard + future proposals.",
+        "name": "Javascript (ES)",
+        "level": "Expert",
+        "summary": "Dynamically typed Prototypal/Functional language for front/back-end web development",
         "years": "5+"
       },
       {
@@ -441,7 +481,7 @@
       {
         "name": "PHP",
         "level": "Intermediate",
-        "summary": "Dynamically typed back-end scripting language.",
+        "summary": "Dynamically typed language for back-end web development",
         "years": "2"
       },
       {
@@ -452,8 +492,8 @@
       },
       {
         "name": "Bash",
-        "level": "Intermediate",
-        "summary": "Automation scripting for Linux/Unix systems",
+        "level": "Advanced",
+        "summary": "Desktop scripting for Linux/Unix systems",
         "years": "5+"
       }
     ]

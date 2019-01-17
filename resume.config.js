@@ -27,13 +27,15 @@ module.exports = {
     // 'languages';
   ],
   jobs: [
-    'WiseConnect Inc.',
+    'Coder.inc',
+    // 'WiseConnect Inc.',
     //'24 Hour Alert Systems',
     'Strike Group LLC.',
-    'Joel Plaice & Associates Inc.',
+    'Joel Plaice and Associates Inc.',
     //'Spiral Aviation Training Company'
   ],
   projects: [
+    'absurdum (OSS)',
     //'ng2-resume (OSS)',
     //'ng2-markdown (OSS)',
     'node-ftpsync (OSS)',
