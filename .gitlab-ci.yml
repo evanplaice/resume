@@ -3,6 +3,7 @@ image: alpine:latest
 pages:
   stage: deploy
   script:
+    - mkdir public
     - cp dist/Evan.Plaice-Full.Stack.Dev.html public/index.html
   artifacts:
     paths:
