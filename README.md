@@ -83,7 +83,7 @@ module.exports = {
 
 ## License
 
-**Non-Source Content
+**Non-Source Content**
 
 All non-source-code content herein is covered under the [**Creative Commons CC-BY-SA 4.0**][cc-by-sa-4] license.
 
