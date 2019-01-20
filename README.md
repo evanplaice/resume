@@ -2,10 +2,6 @@
 
 The master branch contains the 'generic' version of my resume. Feature branches contain employer-specific versions.
 
-All content contained within this repo is licensed under a [**Creative Commons CC BY-SA**][cc-by-sa]. Meaning, you're free to copy/remix/transform/reuse the content herein for commercial or non-commercial purposes as long as you maintain attribution.
-
-[cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0/nl/deed.en_GB
-
 ## Usage
 
 Setup points the utility scripts to the correct source resume.json file.
@@ -84,3 +80,15 @@ module.exports = {
   ]
 }
 ```
+
+## License
+
+**Non-Source Content
+
+All non-source-code content herein is covered under the [**Creative Commons CC-BY-SA 4.0**][cc-by-sa-4] license.
+
+**Source Code**
+
+Source Code is licensed under MIT
+
+[cc-by-sa-4]: https://choosealicense.com/licenses/cc-by-sa-4.0/
