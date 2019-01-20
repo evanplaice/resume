@@ -27,10 +27,10 @@ module.exports = {
     // 'languages';
   ],
   jobs: [
-    'Coder.inc',
+    'Coder Inc.',
     // 'WiseConnect Inc.',
     //'24 Hour Alert Systems',
-    'Strike Group LLC.',
+    // 'Strike Group LLC.',
     'Joel Plaice and Associates Inc.',
     //'Spiral Aviation Training Company'
   ],

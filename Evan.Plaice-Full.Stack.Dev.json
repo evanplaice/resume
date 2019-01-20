@@ -28,6 +28,16 @@
       "url": "https://github.com/evanplaice"
     },
     {
+      "network": "GitLab",
+      "user": "evanplaice",
+      "url": "https://gitlab.com/evanplaice"
+    },
+    {
+      "network": "LinkedIn",
+      "user": "evanplaice",
+      "url": "https://www.linkedin.com/in/evanplaice/"
+    },
+    {
       "network": "Twitter",
       "user": "@evanplaice",
       "url": "https://twitter.com/evanplaice"
@@ -144,7 +154,6 @@
       },
       {
         "employer": "Joel Plaice and Associates Inc.",
-        "url": "http://jpasims.com",
         "position": "Electrical Design Technician/Software Developer",
         "summary": "Hacking on commercial full flight aircraft simulators for fun and profit.",
         "start": "2004-07",
@@ -194,8 +203,8 @@
     {
       "title": "absurdum (OSS)",
       "category": "Open Source",
-      "url": "https://github.com/evanplaice/absurdum",
-      "repo": "https://github.com/evanplaice/absurdum",
+      "url": "https://gitlab.com/evanplaice/resume",
+      "repo": "https://gitlab.com/evanplaice/resume",
       "role": "Author",
       "summary": "A collection of functional operators implemented using only reduce",
       "start": "2018",
