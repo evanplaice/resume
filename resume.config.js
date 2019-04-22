@@ -35,7 +35,8 @@ module.exports = {
     //'Spiral Aviation Training Company'
   ],
   projects: [
-    'absurdum (OSS)',
+    '@vanillawc (OSS)',
+    // 'absurdum (OSS)',
     //'ng2-resume (OSS)',
     //'ng2-markdown (OSS)',
     'node-ftpsync (OSS)',

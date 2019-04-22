@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Full Stack Developer",
-    "brief": "Mid-Level Full-Stack Developer (2+ years FTE, 8+ years OpenSource). Specialities: Networking, Parsing, Application Development. Former, Flight Simulator IO specialist, Military Logistics Specialist, Telecomm Tech Lead. Open Source Software Enthusiast. Problem solver. Leader when necessary. Accustomed to, working on small specialized teams, interfacing with customers, quickly adapting to a new technologies, and working on the bleeding-edge.",
+    "brief": "Mid-Level Full-Stack Developer (3+ years FTE, 9+ years OpenSource). Specialities: Networking, Parsing, Application Development. Former, Flight Simulator IO specialist, Military Logistics Specialist, Telecomm Tech Lead. Open Source Software Enthusiast. Problem solver. I work best in small, highgly specialized teams. Well versed in training/mentoring juniors, and leading others.",
     "quote": "Leave it better than you found it"
   },
   "contact": {
@@ -64,7 +64,7 @@
       {
         "employer": "Coder Inc.",
         "url": "http://www.coder.com",
-        "position": "Javascript Engineer",
+        "position": "Javascript Engineer [Mid]",
         "summary": "Worked (100% Remote) on the FrontEnd team to implement features for the Editor (Monaco/Typescript) as well as the website FrontEnd (React/Typescript/Mobx).",
         "start": "2018-02",
         "end": "2018-09",
@@ -154,16 +154,15 @@
       },
       {
         "employer": "Joel Plaice and Associates Inc.",
-        "position": "Electrical Design Technician/Software Developer",
+        "position": "Electrical IO Specialist/Software Engineer",
         "summary": "Hacking on commercial full flight aircraft simulators for fun and profit.",
         "start": "2004-07",
         "end": "2010-02",
         "highlights": [
           "Design/implement various avionics and aircraft systems updates incl, EGPWS, TCAS, TAWS, glass, analog, etc",
-          "Full Stack development of a website + inventory DB using a LAMP stack",
-          "Full lifecycle product design/architecture/development of milti-touchscreen interface using C#/MSSQL",
-          "Designed and implemented a custom layer2 networking protocol",
-          "Partnered on many projects with Rotran Ltd, packing/installing/relocating and FAA certifying various Full Flight Simulators"
+          "Website Dev (ie LAMP stack)",
+          "Principal Developer for RIOS (Replacement Instructor Operating Station)",
+          "Partnered w/ Rotran LTD as a crew member Relocating many Level D commercial flight simulators. Roles (Packer, Electrical, Rigger)"
         ],
         "keywords": [
           "Hardware",
@@ -201,10 +200,27 @@
   },
   "projects": [
     {
+      "title": "@vanillawc (OSS)",
+      "category": "Open Source",
+      "url": "https://gitlab.com/@vanillawc",
+      "repo": "https://gitlab.com/@vanillawc/vanillawc",
+      "role": "Owner",
+      "summary": "A GitHub organization created to encourage and proliferate the development and use of Vanilla Web Components.",
+      "start": "2019",
+      "highlights": [
+        "2 WC officially release",
+        "4 WC published"
+      ],
+      "keywords": [
+        "Javascript",
+        "Web Compoments"
+      ]
+    },
+    {
       "title": "absurdum (OSS)",
       "category": "Open Source",
-      "url": "https://gitlab.com/evanplaice/resume",
-      "repo": "https://gitlab.com/evanplaice/resume",
+      "url": "https://gitlab.com/evanplaice/absurdum",
+      "repo": "https://gitlab.com/evanplaice/absurdum",
       "role": "Author",
       "summary": "A collection of functional operators implemented using only reduce",
       "start": "2018",
@@ -274,7 +290,7 @@
       "summary": "The first RFC 4180 complete lexer/parser for Javascript. Migrated from Google Code.",
       "start": "2012",
       "highlights": [
-        "500K+ downloads",
+        "1M+ downloads",
         "Efficient hand-rolled DFA parser",
         "Published to NPM, Bower, CDNJS, Maven, Ruby Gems"
       ],
@@ -313,11 +329,11 @@
       ]
     },
     {
-      "title": "Replacement Instructor Operating Station (Proprietary)",
+      "title": "RIOS (Proprietary)",
       "category": "Proprietary",
-      "role": "Co-Developer",
-      "summary": "A mission critical multi-touchscreen interface for commercial flight simulators.",
-      "start": "2008",
+      "role": "Principal Developer",
+      "summary": "A mission critical 3-touchscreen interface for Level D Commercial Flight Simulators.",
+      "start": "2007",
       "end": "2009",
       "highlights": [
         "First full lifecycle greenfield product development",
@@ -347,11 +363,9 @@
         "name": "Languages",
         "level": "advanced",
         "skills": [
-          "Javscript",
-          "ES",
+          "Javscript/ES",
           "Typescript",
-          "HTML5",
-          "CSS",
+          "HTML/CSS",
           "Python",
           "C#",
           "PHP",
@@ -363,17 +377,39 @@
         "name": "Frontend",
         "level": "advanced",
         "skills": [
+          "WebComponents",
           "React",
           "Angular",
+          "SCSS",
           "Angular.js",
-          "jQuery",
-          "Bootstrap",
-          "Semantic-UI"
+          "jQuery"
+        ]
+      },
+      {
+        "name": "QA/Testing",
+        "level": "Advanced",
+        "skills": [
+          "Jest",
+          "Selenium",
+          "Tape.js",
+          "Mocha/Chai",
+          "JSUnit",
+          "NUnit"
+        ]
+      },
+      {
+        "name": "Automation",
+        "level": "advanced",
+        "skills": [
+          "Bash",
+          "Rollup",
+          "Webpack",
+          "Grunt"
         ]
       },
       {
         "name": "Backend",
-        "level": "advanced",
+        "level": "intermediate",
         "skills": [
           "Node.js",
           "Express",
@@ -389,10 +425,8 @@
           "SQL",
           "MSSQL",
           "MySQL",
-          "Doctrine",
           "NoSQL",
           "MongoDB",
-          "Mongoose",
           "DataStore"
         ]
       },
@@ -400,42 +434,18 @@
         "name": "DevOps",
         "level": "intermediate",
         "skills": [
+          "AWS (S3, EC2, R53, IAM)",
+          "GCloud",
           "Docker",
           "Puppet",
-          "AWS",
-          "GCloud"
-        ]
-      },
-      {
-        "name": "Automation",
-        "level": "advanced",
-        "skills": [
-          "Bash",
-          "NPM",
-          "Webpack",
-          "Vagrant",
-          "Puppet",
-          "Grunt"
-        ]
-      },
-      {
-        "name": "QA/Testing",
-        "level": "intermediate",
-        "skills": [
-          "Jest",
-          "Selenium",
-          "Tape",
-          "Mocha",
-          "Chai",
-          "NUnit",
-          "JSUnit",
-          "JUnit"
+          "Vagrant"
         ]
       },
       {
         "name": "Design",
         "level": "intermediate",
         "skills": [
+          "Inkscape",
           "Photoshop",
           "Illustrator",
           "Mockups",
@@ -443,16 +453,12 @@
         ]
       },
       {
-        "name": "Cloud",
-        "level": "intermediate",
+        "name": "CI/CD",
+        "level": "Intermediate",
         "skills": [
-          "AWS",
-          "EC2",
-          "S3",
-          "Route53",
-          "IAM",
-          "gCloud",
-          "AppEngine"
+          "CircleCI",
+          "GitLab",
+          "TravisCI"
         ]
       }
     ],
@@ -497,7 +503,7 @@
         "name": "Java",
         "level": "Beginner",
         "summary": "Statically typed OOP language",
-        "years": "1"
+        "years": "<1"
       },
       {
         "name": "Bash",
