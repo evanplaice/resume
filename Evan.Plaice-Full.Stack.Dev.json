@@ -202,13 +202,13 @@
     {
       "title": "@vanillawc (OSS)",
       "category": "Open Source",
-      "url": "https://gitlab.com/@vanillawc",
-      "repo": "https://gitlab.com/@vanillawc/vanillawc",
+      "url": "https://github.com/vanillawc",
+      "repo": "https://github.com/vanillawc/vanillawc",
       "role": "Owner",
       "summary": "A GitHub organization created to encourage and proliferate the development and use of Vanilla Web Components.",
       "start": "2019",
       "highlights": [
-        "2 WC officially release",
+        "3 WC officially release",
         "4 WC published"
       ],
       "keywords": [
