@@ -2,19 +2,18 @@
   "name": "resume",
   "version": "1.1.0",
   "description": "A repo to track my resume",
-  "main": "index.js",
   "author": "Evan Plaice",
-  "license": "CC BY-SA",
+  "license": "CC-BY-SA",
+  "scripts": {
+    "setup": "node ./lib/setup.js",
+    "validate": "npx hackmyresume VALIDATE ./src/Evan.Plaice-Full.Stack.Dev.json",
+    "build": "npm run validate && npm run build:filter && npm run build:build && npm run build:clean",
+    "build:filter": "node ./lib/filter.js ./src/Evan.Plaice-Full.Stack.Dev.json ./dist/tmp.json",
+    "build:build": "npx hackmyresume BUILD ./dist/tmp.json TO ./dist/Evan.Plaice-Full.Stack.Dev.html ./dist/Evan.Plaice-Full.Stack.Dev.pdf -t compact",
+    "build:clean": "rm ./dist/compact-html.css && rm ./dist/compact-pdf.css && rm ./dist/Evan.Plaice-Full.Stack.Dev.pdf.html && rm ./dist/tmp.json"
+  },
   "devDependencies": {
     "fresca": "^0.3.1",
     "hackmyresume": "^1.8.0"
   },
-  "scripts": {
-    "setup": "node ./src/setup.js",
-    "validate": "npx hackmyresume VALIDATE Evan.Plaice-Full.Stack.Dev.json",
-    "build": "npm run validate && npm run build:filter && npm run build:build && npm run build:clean",
-    "build:build": "npx hackmyresume BUILD ./dist/tmp.json TO ./dist/Evan.Plaice-Full.Stack.Dev.html ./dist/Evan.Plaice-Full.Stack.Dev.pdf -t compact",
-    "build:clean": "rm ./dist/compact-html.css && rm ./dist/compact-pdf.css && rm ./dist/Evan.Plaice-Full.Stack.Dev.pdf.html && rm ./dist/tmp.json",
-    "build:filter": "node ./src/filter.js ../Evan.Plaice-Full.Stack.Dev.json ./dist/tmp.json"
-  }
 }
