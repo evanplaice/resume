@@ -7,7 +7,7 @@ pages:
     - cp dist/Evan.Plaice-Full.Stack.Dev.html public/index.html
     - cp dist/Evan.Plaice-Full.Stack.Dev.html public/Evan.Plaice-Full.Stack.Dev.html
     - cp dist/Evan.Plaice-Full.Stack.Dev.pdf public/Evan.Plaice-Full.Stack.Dev.pdf
-    - cp Evan.Plaice-Full.Stack.Dev.json public/Evan.Plaice-Full.Stack.Dev.json
+    - cp src/Evan.Plaice-Full.Stack.Dev.json public/Evan.Plaice-Full.Stack.Dev.json
   artifacts:
     paths:
     - public
