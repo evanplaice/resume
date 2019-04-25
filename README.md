@@ -7,7 +7,7 @@ The master branch contains the 'generic' version of my resume. Feature branches 
 Setup points the utility scripts to the correct source resume.json file.
 
 ```sh
-npm run setup [path-to-json]
+npm run setup [resume.json]
 ```
 
 Once that's done you can either validate...
@@ -85,10 +85,10 @@ module.exports = {
 
 **Non-Source Content**
 
-All non-source-code content herein is covered under the [**Creative Commons CC-BY-SA 4.0**][cc-by-sa-4] license.
+All non-source-code content herein is covered under the [**Creative Commons CC-BY-SA 4.0**][] license.
 
 **Source Code**
 
 Source Code is licensed under MIT
 
-[cc-by-sa-4]: https://choosealicense.com/licenses/cc-by-sa-4.0/
+[**Creative Commons CC-BY-SA 4.0**]: https://choosealicense.com/licenses/cc-by-sa-4.0/
