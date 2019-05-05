@@ -6,7 +6,7 @@
   },
   "info": {
     "label": "Full Stack Developer",
-    "brief": "Mid-Level Full-Stack Developer (3+ years FTE, 9+ years OpenSource). Specialities: Networking, Parsing, Application Development. Former, Flight Simulator IO specialist, Military Logistics Specialist, Telecomm Tech Lead. Open Source Software Enthusiast. Problem solver. I work best in small, highgly specialized teams. Well versed in training/mentoring juniors, and leading others.",
+    "brief": "Mid-Level Full-Stack Developer (3+ years FTE, 9+ OpenSource). Specialities: Networking, Parsing, Application Development. Open Source Expert. Software Dev Generalist. I work best in small, highly specialized teams. Well versed in training, mentorship, and leadership roles.",
     "quote": "Leave it better than you found it"
   },
   "contact": {
@@ -62,10 +62,10 @@
     "summary": "",
     "history": [
       {
-        "employer": "Coder Inc.",
+        "employer": "Coder INC",
         "url": "http://www.coder.com",
-        "position": "Javascript Engineer [Mid]",
-        "summary": "Worked (100% Remote) on the FrontEnd team to implement features for the Editor (Monaco/Typescript) as well as the website FrontEnd (React/Typescript/Mobx).",
+        "position": "Javascript Engineer [Mid-Level]",
+        "summary": "FrontEnd Dev (100% Remote), worked on the IDE (Monaco/Typescript) and website interface (React/Typescript/Mobx).",
         "start": "2018-02",
         "end": "2018-09",
         "highlights": [
@@ -86,15 +86,15 @@
         ]
       },
       {
-        "employer": "WiseConnect Inc.",
+        "employer": "WiseConnect INC",
         "url": "http://wiseconnectinc.com/",
-        "position": "Lead Installation and Repair Field Technician",
-        "summary": "High speed, low drag copper specialist. Installing Century Link DSL and POTS services.",
+        "position": "Lead I&R Technican",
+        "summary": "High speed, low drag copper specialist. Installing/Repairing Century Link DSL/POTS services.",
         "start": "2017-07",
         "end": "2017-10",
         "highlights": [
-          "Provided leadership, training, and QA for the field techs",
-          "Served 1K+ customers"
+          "Served 1K+ customers",
+          "Leadership: Provided guidance, training, and QA for the field team"
         ],
         "keywords": [
           "Installation",
@@ -114,7 +114,7 @@
         "start": "2016-09",
         "end": "2017-06",
         "highlights": [
-          "Served 1.5+ customers"
+          "Served 1.5k+ customers"
         ],
         "keywords": [
           "Installation",
@@ -128,20 +128,18 @@
       {
         "employer": "Strike Group LLC.",
         "url": "http://strikegroup.org",
-        "position": "Field Service Representative",
-        "summary": "West Coast representative for MARCORSYSCOM Combat Camera. Providing logistics and support.",
+        "position": "FSR, SME",
+        "summary": "West Coast Field Service Representative for MARCORSYSCOM Combat Camera. Supporting all things Logistics and Technical",
         "start": "2011-04",
         "end": "2015-05",
         "highlights": [
-          "Fielded, tracked, and supported $5+ million in military hardware",
-          "Support 11 Combat Camera units across 6 military installations",
-          "Acted as regional SME for the TIPS (Tactical Imagery Production System)",
-          "Provided onsite support 3 field exercises",
-          "Hosted of semi-annual traning evolutions for the TIPS",
-          "Certified Xerox MFD field technician",
-          "Setup and trained coworkers to use S3 for monthly distribution of OS images",
-          "Authored an automation suite for Excel->PDF form filling",
-          "Designed and maintained company website"
+          "Supported 11 Combat Camera units across 6 military installations",
+          "Logistics: Fielded, tracked, and supported $5+ million in military hardware",
+          "Maintenance: Acted as the regional SME (Subject Matter Expert) for the TIPS (Tactical Imagery Production System)",
+          "Training: Hosted of semi-annual traning evolutions for the TIPS",
+          "Leadership: Fielded the TIPS on 3 training exercises. Advised unit chiefs/officers and regularly led small teams of Marines",
+          "Webmaster: Designed, built, and maintained company's online presence",
+          "Credentials: Earned 2 Xerox MFD Certifications and acquired a 'Public Trust' clearance"
         ],
         "keywords": [
           "Military",
@@ -153,16 +151,16 @@
         ]
       },
       {
-        "employer": "Joel Plaice and Associates Inc.",
-        "position": "Electrical IO Specialist/Software Engineer",
+        "employer": "JPA INC",
+        "position": "Principal Engineer, Electrical IO Specialist",
         "summary": "Hacking on commercial full flight aircraft simulators for fun and profit.",
         "start": "2004-07",
         "end": "2010-02",
         "highlights": [
-          "Design/implement various avionics and aircraft systems updates incl, EGPWS, TCAS, TAWS, glass, analog, etc",
-          "Website Dev (ie LAMP stack)",
-          "Principal Developer for RIOS (Replacement Instructor Operating Station)",
-          "Partnered w/ Rotran LTD as a crew member Relocating many Level D commercial flight simulators. Roles (Packer, Electrical, Rigger)"
+          "Product Development: Worked as a Principal Developer on the RIOS (Replacement Instructor Operating Station)",
+          "Hardware: Designed, implemented, integrated avionics and systems updates. Ex EGPWS, TCAS, TAWS, glass, analog",
+          "Webmaster: Designed, built, and maintained the company site. Which led to 2 brokerage deals worth .5MM",
+          "Partnered w/ Rotran LTD for many Level D simulator relocations, Roles incl Packer, Electrical, Rigger"
         ],
         "keywords": [
           "Hardware",
@@ -178,14 +176,14 @@
         ]
       },
       {
-        "employer": "Spiral Aviation Training Company",
-        "url": "http://www.somesite.com",
-        "position": "Flight Simulator Production Specialist",
+        "employer": "SATCO (Spiral Aviation Training Company) LLC",
+        "position": "Flight Simulator Manufacturing Specialist",
         "summary": "Build commercial full flight simulators. Avionics, cabling, instrument panels, I/O, and instrument calibrations.",
         "start": "2003-12",
         "end": "2004-07",
         "highlights": [
-          "Built cabling and installed/calibrated avionics and aircraft systems"
+          "Build: Manufactured custom cables, wiring harnesses, instrument panels, and modified Electrical Prints",
+          "Integration: Installed I/O, and calibrated instruments"
         ],
         "keywords": [
           "Hardware",
@@ -200,39 +198,60 @@
   },
   "projects": [
     {
-      "title": "@vanillawc (OSS)",
-      "category": "Open Source",
+      "title": "@vanillawc [OSS]",
+      "category": "Open Source Software",
       "url": "https://github.com/vanillawc",
       "repo": "https://github.com/vanillawc/vanillawc",
       "role": "Owner",
       "summary": "A GitHub organization created to encourage and proliferate the development and use of Vanilla Web Components.",
       "start": "2019",
       "highlights": [
-        "3 WC officially release",
-        "4 WC published"
+        "4 Web Components published"
       ],
       "keywords": [
-        "Javascript",
+        "Javascript (ESM)",
         "Web Compoments"
       ]
     },
     {
-      "title": "absurdum (OSS)",
-      "category": "Open Source",
+      "title": "Coder.com [Proprietary]",
+      "category": "Proprietary Software",
+      "url": "https://coder.com",
+      "role": "Contributor (Remote)",
+      "summary": "VSCode in the cloud",
+      "start": "2019",
+      "highlights": [
+        "15k+ users by Alpha Launch",
+        "Duration: Participated from a rough early demo through the Alpha launch",
+        "Methodology: Agile"
+      ],
+      "keywords": [
+        "Typescript",
+        "React",
+        "MobX",
+        "GoogleCloud",
+        "Jest",
+        "Selenium",
+        "Jenkins",
+        "Docker"
+      ]
+    },
+    {
+      "title": "absurdum [OSS]",
+      "category": "Open Source Software",
       "url": "https://gitlab.com/evanplaice/absurdum",
       "repo": "https://gitlab.com/evanplaice/absurdum",
       "role": "Author",
       "summary": "A collection of functional operators implemented using only reduce",
       "start": "2018",
       "keywords": [
-        "Javascript",
-        "ES",
+        "Javascript (ESM)",
         "Functional"
       ]
     },
     {
-      "title": "ng2-resume (OSS)",
-      "category": "Open Source",
+      "title": "ng2-resume [OSS]",
+      "category": "Open Source Software",
       "url": "https://github.com/evanplaice/ng2-resume",
       "repo": "https://github.com/evanplaice/ng2-resume",
       "role": "Author",
@@ -244,16 +263,13 @@
       ]
     },
     {
-      "title": "ng2-markdown (OSS)",
-      "category": "Open Source",
+      "title": "ng2-markdown [OSS]",
+      "category": "Open Source Software",
       "url": "https://github.com/evanplaice/ng2-markdown-component",
       "repo": "https://github.com/evanplaice/ng2-markdown-component",
       "role": "Author",
       "summary": "Reusable Angular Markdown component with syntax highlighting",
       "start": "2015",
-      "highlights": [
-        "Published to JSPM"
-      ],
       "keywords": [
         "Javascript",
         "Angular",
@@ -261,17 +277,15 @@
       ]
     },
     {
-      "title": "node-ftpsync (OSS)",
-      "category": "Open Source",
+      "title": "node-ftpsync [OSS]",
+      "category": "Open Source Software",
       "url": "https://github.com/evanplaice/node-ftpsync",
       "repo": "https://github.com/evanplaice/node-ftpsync",
       "role": "Author",
-      "summary": "Intelligent file syncronization over FTP",
+      "summary": "Intelligent incremental file sync over FTP",
       "start": "2013",
       "highlights": [
-        "One-command incremental synchronization",
-        "Grunt wrapper (grunt-ftpsync) available",
-        "Published to NPM"
+        "One-step execution"
       ],
       "keywords": [
         "Node.js",
@@ -282,17 +296,16 @@
       ]
     },
     {
-      "title": "jquery-csv (OSS)",
-      "category": "Open Source",
+      "title": "jquery-csv [OSS]",
+      "category": "Open Source Software",
       "url": "https://github.com/evanplaice/jquery-csv",
       "repo": "https://github.com/evanplaice/jquery-csv",
       "role": "Author",
       "summary": "The first RFC 4180 complete lexer/parser for Javascript. Migrated from Google Code.",
       "start": "2012",
       "highlights": [
-        "1M+ downloads",
-        "Efficient hand-rolled DFA parser",
-        "Published to NPM, Bower, CDNJS, Maven, Ruby Gems"
+        "1MM+ downloads",
+        "Efficient hand-rolled DFA parser"
       ],
       "keywords": [
         "Javascript",
@@ -304,19 +317,18 @@
       ]
     },
     {
-      "title": "SharpPcap/Packet.Net (OSS)",
-      "category": "Open Source",
+      "title": "SharpPcap/Packet.Net [OSS]",
+      "category": "Open Source Software",
       "url": "https://github.com/chmorgan/sharppcap",
       "repo": "https://github.com/chmorgan/sharppcap",
       "role": "Contributor",
-      "summary": "Fully managed, cross platform (Windows, Mac, Linux) .NET library for capturing packets",
+      "summary": "Fully managed, cross platform (Windows, Mac, Linux) .NET packet capture",
       "start": "2010",
       "end": "2011",
       "highlights": [
-        "Implemented/revised various networking protocols",
-        "Added additional unit and performance tests",
-        "Added additional examples",
-        "Updated documentation via CodePen"
+        "Implemented parsers/formatters for many protocols (ex TCP, ICMPv6)",
+        "Added unit and performance tests",
+        "Wrote, revised, and improved documentation"
       ],
       "keywords": [
         "C#",
@@ -329,19 +341,19 @@
       ]
     },
     {
-      "title": "RIOS (Proprietary)",
-      "category": "Proprietary",
-      "role": "Principal Developer",
+      "title": "RIOS [Proprietary]",
+      "category": "Proprietary Software",
+      "role": "Principal Developer (Remote)",
       "summary": "A mission critical 3-touchscreen interface for Level D Commercial Flight Simulators.",
       "start": "2007",
       "end": "2009",
       "highlights": [
-        "First full lifecycle greenfield product development",
-        "250K in revenue",
-        "Architect of all systems, components, IPC, and network communications",
-        "Specified, assembled, configured, custom hardware incl hot/cold spares for redundancy",
-        "First turnkey hardware product implementation",
-        "Successful acceptance - 90 days @ 99.9% uptime"
+        "Worth 250K in revenue",
+        "Product: Worked with the Cx from the first stages to define all UI designs and capabilities",
+        "Software: Architect many fundamental systems. UI, IPC, Comms, Database, Multi-Threading, Binary Parsers",
+        "Hardware: Fully specified and installed all hardware. Rackmount Computers, Screens, Redundant Backup H/W",
+        "Integration: Fully integrated/tested the system with only 7-days of operational downtime",
+        "SLA: Acceptance required 90 days @ 99.9% uptime"
       ],
       "keywords": [
         "Hardware",
@@ -369,8 +381,7 @@
           "Python",
           "C#",
           "PHP",
-          "BASIC",
-          "Profanity"
+          "BASIC"
         ]
       },
       {
@@ -379,15 +390,16 @@
         "skills": [
           "WebComponents",
           "React",
+          "MobX",
           "Angular",
+          "RxJS",
           "SCSS",
-          "Angular.js",
           "jQuery"
         ]
       },
       {
         "name": "QA/Testing",
-        "level": "Advanced",
+        "level": "advanced",
         "skills": [
           "Jest",
           "Selenium",
@@ -419,6 +431,15 @@
         ]
       },
       {
+        "name": "CI/CD",
+        "level": "intermediate",
+        "skills": [
+          "CircleCI",
+          "GitLab",
+          "TravisCI"
+        ]
+      },
+      {
         "name": "Database",
         "level": "intermediate",
         "skills": [
@@ -432,7 +453,7 @@
       },
       {
         "name": "DevOps",
-        "level": "intermediate",
+        "level": "beginner",
         "skills": [
           "AWS (S3, EC2, R53, IAM)",
           "GCloud",
@@ -443,22 +464,13 @@
       },
       {
         "name": "Design",
-        "level": "intermediate",
+        "level": "beginner",
         "skills": [
           "Inkscape",
           "Photoshop",
           "Illustrator",
           "Mockups",
           "Logo-Design"
-        ]
-      },
-      {
-        "name": "CI/CD",
-        "level": "Intermediate",
-        "skills": [
-          "CircleCI",
-          "GitLab",
-          "TravisCI"
         ]
       }
     ],

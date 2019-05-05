@@ -27,21 +27,22 @@ module.exports = {
     // 'languages';
   ],
   jobs: [
-    'Coder Inc.',
-    // 'WiseConnect Inc.',
+    'Coder INC',
+    // 'WiseConnect INC',
     //'24 Hour Alert Systems',
-    // 'Strike Group LLC.',
-    'Joel Plaice and Associates Inc.',
-    //'Spiral Aviation Training Company'
+    // 'Strike Group LLC',
+    'JPA INC',
+    //'SATCO LLC'
   ],
   projects: [
-    '@vanillawc (OSS)',
-    // 'absurdum (OSS)',
-    //'ng2-resume (OSS)',
-    //'ng2-markdown (OSS)',
-    'node-ftpsync (OSS)',
-    'jquery-csv (OSS)',
-    'SharpPcap/Packet.Net (OSS)',
-    'Replacement Instructor Operating Station (Proprietary)'
+    '@vanillawc [OSS]',
+    'Coder.com [Proprietary]',
+    // 'absurdum [OSS]',
+    //'ng2-resume [OSS]',
+    //'ng2-markdown [OSS]',
+    //'node-ftpsync [OSS]',
+    'jquery-csv [OSS]',
+    // 'SharpPcap/Packet.Net [OSS]',
+    'RIOS [Proprietary]'
   ]
 }
