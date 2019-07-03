@@ -65,7 +65,7 @@
         "employer": "Coder INC",
         "url": "http://www.coder.com",
         "position": "Javascript Engineer [Mid-Level]",
-        "summary": "FrontEnd Dev (100% Remote), worked on the IDE (Monaco/Typescript) and website interface (React/Typescript/Mobx).",
+        "summary": "FrontEnd Dev (100% Remote), built the IDE (Typescript) and website UI (React).",
         "start": "2018-02",
         "end": "2018-09",
         "highlights": [
@@ -88,7 +88,7 @@
       {
         "employer": "WiseConnect INC",
         "url": "http://wiseconnectinc.com/",
-        "position": "Lead I&R Technican",
+        "position": "Lead IR Technican",
         "summary": "High speed, low drag copper specialist. Installing/Repairing Century Link DSL/POTS services.",
         "start": "2017-07",
         "end": "2017-10",
@@ -205,9 +205,6 @@
       "role": "Owner",
       "summary": "A GitHub organization created to encourage and proliferate the development and use of Vanilla Web Components.",
       "start": "2019",
-      "highlights": [
-        "4 Web Components published"
-      ],
       "keywords": [
         "Javascript (ESM)",
         "Web Compoments"
