@@ -58,6 +58,17 @@
       "url": "https://www.hackerrank.com/evanplaice"
     }
   ],
+  "education": {
+    "history": [
+      {
+        "institution": "Metro State University",
+        "title": "BSC (Incomplete)",
+        "summary": "Business - Computer Information Systems",
+        "start": "2006-09",
+        "end": "2007-05"
+      }
+    ]
+  },
   "employment": {
     "summary": "",
     "history": [
@@ -452,7 +463,7 @@
         "name": "DevOps",
         "level": "beginner",
         "skills": [
-          "AWS (S3, EC2, R53, IAM)",
+          "AWS (S3, EC2, R53, IAM, CloudFront, SES)",
           "GCloud",
           "Docker",
           "Puppet",
