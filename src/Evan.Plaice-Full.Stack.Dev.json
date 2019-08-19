@@ -386,10 +386,7 @@
           "Javscript/ES",
           "Typescript",
           "HTML/CSS",
-          "Python",
-          "C#",
-          "PHP",
-          "BASIC"
+          "Python"
         ]
       },
       {
@@ -412,9 +409,7 @@
           "Jest",
           "Selenium",
           "Tape.js",
-          "Mocha/Chai",
-          "JSUnit",
-          "NUnit"
+          "Mocha/Chai"
         ]
       },
       {
@@ -423,8 +418,7 @@
         "skills": [
           "Bash",
           "Rollup",
-          "Webpack",
-          "Grunt"
+          "Webpack"
         ]
       },
       {
@@ -432,10 +426,7 @@
         "level": "intermediate",
         "skills": [
           "Node.js",
-          "Express",
-          "Symfony",
-          "BoltCMS",
-          "WebApp2"
+          "Express"
         ]
       },
       {
@@ -451,12 +442,9 @@
         "name": "Database",
         "level": "intermediate",
         "skills": [
-          "SQL",
           "MSSQL",
           "MySQL",
-          "NoSQL",
-          "MongoDB",
-          "DataStore"
+          "MongoDB"
         ]
       },
       {
@@ -464,9 +452,7 @@
         "level": "beginner",
         "skills": [
           "AWS (S3, EC2, R53, IAM, CloudFront, SES)",
-          "GCloud",
           "Docker",
-          "Puppet",
           "Vagrant"
         ]
       },
