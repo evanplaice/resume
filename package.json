@@ -9,7 +9,7 @@
     "validate": "npx hackmyresume VALIDATE ./src/Evan.Plaice-Full.Stack.Dev.json",
     "build": "npm run validate && npm run build:filter && npm run build:build && npm run build:clean",
     "build:filter": "node ./lib/filter.js ./src/Evan.Plaice-Full.Stack.Dev.json ./dist/tmp.json",
-    "build:build": "npx hackmyresume BUILD ./dist/tmp.json TO ./dist/Evan.Plaice-Full.Stack.Dev.html ./dist/Evan.Plaice-Full.Stack.Dev.pdf -t compact",
+    "build:build": "npx hackmyresume BUILD ./dist/tmp.json TO ./dist/Evan.Plaice-Full.Stack.Dev.html ./dist/Evan.Plaice-Full.Stack.Dev.pdf -t positive",
     "build:clean": "rm ./dist/compact-html.css && rm ./dist/compact-pdf.css && rm ./dist/Evan.Plaice-Full.Stack.Dev.pdf.html && rm ./dist/tmp.json"
   },
   "devDependencies": {
