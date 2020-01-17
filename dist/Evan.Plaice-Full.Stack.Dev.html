@@ -4,17 +4,33 @@
     <head>
         <meta charset="utf-8">
         <title>Evan Plaice</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <style>
             html, body, main, section, header, ul, p, h1, h2, h3 {
-              font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
-              font-size: 12px;
+              font-family: 'Open Sans', 'sans-serif';
+              font-size: 14px;
+              line-height: 1.4;
               margin: 0; padding: 0;
               display: block;
             }
             
+            ::selection {
+              color: #fff;
+              background: #e48a8a; /* WebKit/Blink Browsers */
+            }
+            ::-moz-selection {
+              color: #fff;
+              background: #e48a8a; /* Gecko Browsers */
+            }
+            
+            p::selection {
+              color: #fff;
+            }
+            
             a {
-              color: #0064BD;
+              color: #C00000;
               text-decoration: none;
             }
             
@@ -26,27 +42,79 @@
               text-decoration: underline;
             }
             
+            h1 {
+              text-transform: uppercase;
+              font-size:
+            }
+            
             h2 {
               text-transform: uppercase;
+              color: #898989;
+              font-size: 2em;
+              position: relative;
+              font-weight: 400;
+            }
+            
+            h3, .tenure {
+              font-size: 1.5em;
+              font-weight: 400;
             }
             
             h3 {
-              font-size: 1em;
+              margin-top: 0;
+              margin-bottom: 5px;
+              /*width: 85%;*/
+              float: left;
+            }
+            
+            table {
+              width: 100%;
+              text-transform: uppercase;
+            }
+            
+            td:first-child {
+              letter-spacing: 2px;
+              color: #bd5b5b;
+              font-size: 20px;
+            }
+            
+            td:last-child {
+              text-align: justify; /* HTML justification sucks, but in this case... */
             }
             
             hr {
-              border: none;
-              border-top: 1px solid #B3B3B3;
+              display: none;
             }
             
             main {
               padding: 15px;
-              max-width: 700px;
+              max-width: 800px;
               margin: 0 auto;
             }
             
             section {
-              margin-top: 1em;
+              margin-top: 2em;
+            }
+            
+            section > div {
+              margin-top: 2em;
+              overflow: hidden; /* Clear floated children */
+            }
+            
+            section > div p {
+              clear: both;
+            }
+            
+            section > header {
+              position: relative;
+            }
+            
+            p + ul {
+              margin: 1em;
+            }
+            
+            ul {
+              clear: both;
             }
             
             li {
@@ -55,11 +123,36 @@
             
             p, li {
               text-align: justify;
-              clear: both;
             }
             
             .tenure {
               float: right;
+              color: #6F6F6F;
+              background-color: #F5F5F5;
+              border-radius: 6px;
+              padding: 4px 6px;
+              font-size: 85%;
+              font-weight: 600;
+              margin-top: 3px;
+            }
+            
+            .location {
+              border: #e2aaaa dashed 1px;
+              background-color: #ffffff;
+              padding: 3px 6px;
+              border-radius: 6px;
+              float: right;
+              margin-right: 5px;
+              float: right;
+              font-size: 85%;
+              color: #717171;
+              font-weight: 600;
+              margin-top: 3px;
+            }
+            
+            span.keywords {
+              font-size: 12px;
+              color: #B16666;
             }
             
             thead {
@@ -69,42 +162,65 @@
             main > header {
               width: 100%;
               float: left;
-              margin-bottom: 0;
-              position: relative;
+              margin-bottom: 1em;
             }
             
-            
-            h3 {
-              display: inline-block;
-              line-height: 1;
-            }
-            #contact {
-              float: right;
-              position: absolute;
-              right: 0;
-              bottom: 0;
-            }
-            
-            #contact > div {
-              display: inline-block;
-              margin-left: 5px;
-            }
-            
-            span.fa {
-              text-align: left;
-              margin-right: 3px;
+            h1 {
               float: left;
             }
             
-            section > div {
-              margin-bottom: 1em;
-              clear: both;
+            h1, h2, .label {
+              font-size: 2.5em;
+              text-transform: uppercase;
+              font-weight: 300;
+              font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Lato', 'sans-serif'
             }
             
-            span.keywords {
-              font-size: 10px;
-              color: gray;
-              text-align: right;
+            #contact {
+             clear: both;
+             float: right;
+             margin-top: 2px;
+            }
+            
+            #contact span + span {
+              margin-left: 10px;
+            }
+            
+            header > span.fa {
+              text-align: center;
+              margin-right: 3px;
+              position: absolute;
+              width: 40px;
+              top: 14px;
+              font-size: 30px;
+              /*transform: translateX(-110%); PDF no likey */
+              margin-left: -50px;
+              color: #DADADA;
+            }
+            
+            .label {
+              float: right;
+              color: #DADADA;
+            }
+            
+            #summary {
+              color: #717171;
+              font-size: 1.25em;
+              margin-top: 6em;
+            }
+            
+            #skills td {
+              padding-top: 7px;
+              padding-bottom: 7px;
+            }
+            
+            #references > p, #references > p > a {
+              color: #961e1e;
+              text-align: center;
+              margin: 30px;
+              font-weight: bold;
+              letter-spacing: 2px;
+              text-transform: uppercase;
             }
         </style>
     </head>
@@ -112,17 +228,12 @@
     <body>
         <main>
             <header>
-                 <h1>Evan Plaice</h1>
-
-                <div id="contact">
-                    <div class="email"><a href="mailto:evanplaice@gmail.com">evanplaice@gmail.com</a>
-                    </div>
-                    <div class="phone">7203152863</div>
-                    <div class="website"><a href="http://evanplaice.com">evanplaice.com</a>
-                    </div>
-                </div>
+                 <h1>Evan <span style="color: #C00000;">Plaice</span></h1> <span class="label">Full Stack Developer</span>
+                <p id="contact"> <span class="email"><a href="mailto:evanplaice@gmail.com">evanplaice@gmail.com</a></span>
+                    <span
+                    class="phone">7203152863</span> <span class="website"><a href="http://evanplaice.com"><a href="http://evanplaice.com">http://evanplaice.com</a></a></span>
+                </p>
             </header>
-            <hr>
             <section id="summary">Mid-Level Full-Stack Developer (3+ years FTE, 9+ OpenSource). Specialities:
                 Networking, Parsing, Application Development. Open Source Expert. Software
                 Dev Generalist. I work best in small, highly specialized teams. Well versed
@@ -143,7 +254,7 @@
                     <tbody>
                         <tr>
                             <td style="width: 25%;">Languages</td>
-                            <td class="keywords">Javscript/ES Typescript HTML/CSS Python C# PHP BASIC</td>
+                            <td class="keywords">Javscript/ES Typescript HTML/CSS Python</td>
                         </tr>
                         <tr>
                             <td style="width: 25%;">Frontend</td>
@@ -151,15 +262,15 @@
                         </tr>
                         <tr>
                             <td style="width: 25%;">QA/Testing</td>
-                            <td class="keywords">Jest Selenium Tape.js Mocha/Chai JSUnit NUnit</td>
+                            <td class="keywords">Jest Selenium Tape.js Mocha/Chai</td>
                         </tr>
                         <tr>
                             <td style="width: 25%;">Automation</td>
-                            <td class="keywords">Bash Rollup Webpack Grunt</td>
+                            <td class="keywords">Bash Rollup Webpack</td>
                         </tr>
                         <tr>
                             <td style="width: 25%;">Backend</td>
-                            <td class="keywords">Node.js Express Symfony BoltCMS WebApp2</td>
+                            <td class="keywords">Node.js Express</td>
                         </tr>
                         <tr>
                             <td style="width: 25%;">CI/CD</td>
@@ -167,11 +278,11 @@
                         </tr>
                         <tr>
                             <td style="width: 25%;">Database</td>
-                            <td class="keywords">SQL MSSQL MySQL NoSQL MongoDB DataStore</td>
+                            <td class="keywords">MSSQL MySQL MongoDB</td>
                         </tr>
                         <tr>
                             <td style="width: 25%;">DevOps</td>
-                            <td class="keywords">AWS (S3, EC2, R53, IAM) GCloud Docker Puppet Vagrant</td>
+                            <td class="keywords">AWS (S3, EC2, R53, IAM, CloudFront, SES) Docker Vagrant</td>
                         </tr>
                         <tr>
                             <td style="width: 25%;">Design</td>
@@ -182,19 +293,19 @@
             </section>
             <hr>
             <section id="employment">
-                <header> <span class="fa fa-building"></span> 
+                <header> <span class="fa fa-lg fa-building"></span> 
                      <h2>employment</h2>
 
                 </header>
                 <div>
                      <h3><em>Javascript Engineer [Mid-Level]</em>,
-    <a href="http://www.coder.com">Coder INC</a>
-    </h3>
 
-                    <!--<span class="tenure">??? — Present</span>-->
+              <a href="http://www.coder.com">Coder INC</a>
+
+              </h3> <span class="tenure">??? — Present</span>
                     <p>
-                        <p>FrontEnd Dev (100% Remote), worked on the IDE (Monaco/Typescript) and
-                            website interface (React/Typescript/Mobx).</p>
+                        <p>FrontEnd Dev (100% Remote), built the IDE (Typescript) and website UI
+                            (React).</p>
                     </p>
                     <ul>
                         <li>Implemented many of the visual designs represented in the production app</li>
@@ -208,14 +319,13 @@
                         <li>Worked through the earlier disogranized stages through the initial production
                             launch</li>
                     </ul> <span class="keywords">Software FrontEnd Typescript React Agile Startup </span>
-
                 </div>
                 <div>
                      <h3><em>Principal Engineer, Electrical IO Specialist</em>,
-    JPA INC
-    </h3>
 
-                    <!--<span class="tenure">??? — Present</span>-->
+              JPA INC
+
+              </h3> <span class="tenure">??? — Present</span>
                     <p>
                         <p>Hacking on commercial full flight aircraft simulators for fun and profit.</p>
                     </p>
@@ -229,72 +339,57 @@
                         <li>Partnered w/ Rotran LTD for many Level D simulator relocations, Roles
                             incl Packer, Electrical, Rigger</li>
                     </ul> <span class="keywords">Hardware Electrical Design Implementation Rigging Installation Software Development Architecture Integration </span>
-
                 </div>
             </section>
             <hr>
             <section id="projects">
-                <header> <span class="fa fa-star"></span> 
+                <header> <span class="fa fa-lg fa-star"></span> 
                      <h2>projects</h2>
 
                 </header>
                 <div>
                      <h3><em>Owner</em>,
-    <a href="https://github.com/vanillawc">@vanillawc [OSS]</a>
-    </h3>
+          <a href="https://github.com/vanillawc">@vanillawc [OSS]</a>
+          </h3>
+ <span class="tenure">2019-01 — Present</span>
 
-                    <!--<span class="tenure">2019-01 — Present</span>-->
-                    <p>
-                        <p>A GitHub organization created to encourage and proliferate the development
-                            and use of Vanilla Web Components.</p>
-                    </p>
-                    <ul>
-                        <li>4 Web Components published</li>
-                    </ul> <span class="keywords">Javascript (ESM) Web Compoments </span>
-
+                    <p>A GitHub organization created to encourage and proliferate the development
+                        and use of Vanilla Web Components.</p> <span class="keywords">Javascript (ESM) Web Compoments </span> 
                 </div>
                 <div>
                      <h3><em>Contributor (Remote)</em>,
-    <a href="https://coder.com">Coder.com [Proprietary]</a>
-    </h3>
+          <a href="https://coder.com">Coder.com [Proprietary]</a>
+          </h3>
+ <span class="tenure">2019-01 — Present</span>
 
-                    <!--<span class="tenure">2019-01 — Present</span>-->
-                    <p>
-                        <p>VSCode in the cloud</p>
-                    </p>
+                    <p>VSCode in the cloud</p>
                     <ul>
                         <li>15k+ users by Alpha Launch</li>
                         <li>Duration: Participated from a rough early demo through the Alpha launch</li>
                         <li>Methodology: Agile</li>
-                    </ul> <span class="keywords">Typescript React MobX GoogleCloud Jest Selenium Jenkins Docker </span>
-
+                    </ul> <span class="keywords">Typescript React MobX GoogleCloud Jest Selenium Jenkins Docker </span> 
                 </div>
                 <div>
                      <h3><em>Author</em>,
-    <a href="https://github.com/evanplaice/jquery-csv">jquery-csv [OSS]</a>
-    </h3>
+          <a href="https://github.com/evanplaice/jquery-csv">jquery-csv [OSS]</a>
+          </h3>
+ <span class="tenure">2012-01 — Present</span>
 
-                    <!--<span class="tenure">2012-01 — Present</span>-->
-                    <p>
-                        <p>The first RFC 4180 complete lexer/parser for Javascript. Migrated from
-                            Google Code.</p>
-                    </p>
+                    <p>The first RFC 4180 complete lexer/parser for Javascript. Migrated from
+                        Google Code.</p>
                     <ul>
                         <li>1MM+ downloads</li>
                         <li>Efficient hand-rolled DFA parser</li>
-                    </ul> <span class="keywords">Javascript QUnit Mocha Chai Mercurial Git </span>
-
+                    </ul> <span class="keywords">Javascript QUnit Mocha Chai Mercurial Git </span> 
                 </div>
                 <div>
                      <h3><em>Principal Developer (Remote)</em>,
-    RIOS [Proprietary]
-    </h3>
+          RIOS [Proprietary]
+          </h3>
+ <span class="tenure">2007-01 — 2009-01</span>
 
-                    <!--<span class="tenure">2007-01 — 2009-01</span>-->
-                    <p>
-                        <p>A mission critical 3-touchscreen interface for Level D Commercial Flight
-                            Simulators.</p>
-                    </p>
+                    <p>A mission critical 3-touchscreen interface for Level D Commercial Flight
+                        Simulators.</p>
                     <ul>
                         <li>Worth 250K in revenue</li>
                         <li>Product: Worked with the Cx from the first stages to define all UI designs
@@ -306,8 +401,7 @@
                         <li>Integration: Fully integrated/tested the system with only 7-days of operational
                             downtime</li>
                         <li>SLA: Acceptance required 90 days @ 99.9% uptime</li>
-                    </ul> <span class="keywords">Hardware Software Design Networking Architecture Integration C# MSSQL Subversion MediaWiki </span>
-
+                    </ul> <span class="keywords">Hardware Software Design Networking Architecture Integration C# MSSQL Subversion MediaWiki </span> 
                 </div>
             </section>
         </main>
