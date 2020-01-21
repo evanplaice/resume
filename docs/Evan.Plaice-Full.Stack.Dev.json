@@ -1,0 +1,280 @@
+{
+  "basics": {
+    "name": "Evan Plaice",
+    "label": "FullStack Software Engineer",
+    "picture": "",
+    "email": "evanplaice@gmail.com",
+    "website": "http://evanplaice.com",
+    "summary": "Mid-Level Full-Stack Developer (3+ years FTE, 9+ OpenSource). Specialties: Networking, Parsing, Application Development. Open Source Expert. Software Dev Generalist. I work best in small, highly specialized teams. Well versed in training, mentorship, and leadership roles.",
+    "location": {
+      "address": "225 CR 640",
+      "postalCode": "80446",
+      "city": "Granby",
+      "countryCode": "US",
+      "region": "Colorado"
+    },
+    "profiles": [
+
+      {
+        "network": "GitHub",
+        "user": "evanplaice",
+        "url": "https://github.com/evanplaice"
+      },
+      {
+        "network": "StackOverflow",
+        "user": "evanplaice",
+        "url": "https://stackoverflow.com/users/290340/evan-plaice"
+      },
+      {
+        "network": "Dev.to",
+        "user": "evanplaice",
+        "url": "https://dev.to/evanplaice"
+      },
+      {
+        "network": "LinkedIn",
+        "user": "evanplaice",
+        "url": "https://www.linkedin.com/in/evanplaice/"
+      },
+      {
+        "network": "Twitter",
+        "user": "evanplaice",
+        "url": "https://twitter.com/evanplaice"
+      },
+      {
+        "network": "GitLab",
+        "user": "evanplaice",
+        "url": "https://gitlab.com/evanplaice"
+      },
+      {
+        "network": "HackerRank",
+        "user": "evanplaice",
+        "url": "https://www.hackerrank.com/evanplaice"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "name": "",
+      "type": "application",
+      "entity": "Smoogle",
+      "url": "missdirection.example.com",
+      "description": "",
+      "startDate": "2016-08-24",
+      "endDate": "2016-08-24",
+      "roles": [ 
+        "Team lead", "Designer"
+      ],
+      "highlights": [],
+      "keywords": [
+        "GoogleMaps",
+        "Chrome Extension",
+        "Javascript"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Open Source",
+      "position": "Author, Maintainer, Contributor",
+      "website": "https://github.com/evanplaice",
+      "startDate": ""
+    },
+    {
+      "company": "Coder Technologies Inc",
+      "position": "JavaScript Engineer [Mid] - 100% Remote",
+      "website": "https://coder.com",
+      "summary": "Coder is a cloud-native IDE (Integrated Development Environment) based on VSCode",
+      "startDate": "2018-02",
+      "endDate": "2018-09",
+      "highlights": [
+        "Dev: Worked on the main product UI from the early alpha stages through product launch (Typescript)",
+        "Dev: Scaffolded the VSCode plugin integration API (Typescript)",
+        "Dev: Contributed to and polished the FrontEnd website UI leading up to launch (Typescript React)",
+        "QA: Built out the E2E testing automation, including integration with CI/CD (Selenium)"
+      ]
+    },
+    {
+      "company": "WiseConnect Inc",
+      "position": "Lead I&R Technician",
+      "website": "https://wiseconnectinc.com",
+      "summary": "WiseConnect specializes in Copper and FiberOptic telecommunications installation and support",
+      "startDate": "2017-05",
+      "endDate": "2017-11",
+      "highlights": [
+        "Leadership: Provided training, mentorship, and QA for the Denver team",
+        "Tech/CS: Performed 1K+ install/repair jobs"
+      ]
+    },
+    {
+      "company": "24 Hour Alert Systems",
+      "position": "DISH I&R Technician",
+      "summary": "24HR is a contract installation for DISH Network",
+      "startDate": "2016-08",
+      "endDate": "2017-05",
+      "highlights": [
+        "Tech/CS: Performed 1.5k+ install/repair jobs"
+      ]
+    },
+    {
+      "company": "Strike Group LLC",
+      "position": "FSR (Field Service Representative)/SME (Subject Matter Expert) - 100% Remote",
+      "website": "https://strikegroup.org",
+      "summary": "SG contracts for the DOD. I worked as a rep for MARCORSYSCOM Combat Camera responsible for the entire West Coast/Pacific AOR",
+      "startDate": "2011-04",
+      "endDate": "2015-05",
+      "highlights": [
+        "CS: Provided logistics and help/desk support for 11 units across 6 military bases",
+        "Logistics: Fielded and tracked $5+ million in visual imagery and military hardware",
+        "Tech: Repaired Xerox MFDs, updated laptops (120+) quarterly, and administered the 3 TIPS networks",
+        "Leadership: Advised COMCAM Unit Chiefs/Officers and frequently led small teams of Marines",
+        "Leadership: Led semi-annual training sessions on TIPS (Tactical Imagery Production System) deployment",
+        "Leadership: Fielded the TIPS on 3 training evolutions (ie large scale deployment exercises)",
+        "Dev: Designed, built, and maintained company's online presence @ StrikeGroup.org",
+        "Credentials: Earned 2 Xerox MFD Certifications and acquired a 'Public Trust' clearance",
+        "Awards: Received a 'Commendation for Exemplary Performance' for my role in DesertScimitar14"
+      ]
+    },
+    {
+      "company": "JPA Inc",
+      "position": "Principal Software Engineer [C#/C/MSSQL] - 100% Remote",
+      "summary": "Co-Developed the RIOS product for FedEx through all stages of planning and development",
+      "startDate": "2008-07",
+      "endDate": "2010-02",
+      "highlights": [
+        "Product: Led product development from the PDR (Preliminary Design Review) thru Acceptance",
+        "Arch: Designed the communications, systems, n-tier, and IPC (Inter Process Communications) architecture",
+        "Dev: Build parsers for ARINC-424, the host datapool, and ported the floating-point conversion lib from C to C#",
+        "Dev: Implemented a custom Layer 2 network protocol client/server for host interaction",
+        "Dev: Implemented the database layer. Incl datapool, ARINC424, cache layer, queries, and stored procedures",
+        "Dev: Build dynamic 2D projections to graph the Glideslope and ILS deviation plots",
+        "Dev/Tech: Performed the onsite installation and host integration per the agreed (7 day) schedule",
+        "Hardware: Specified and assembled the rackmount PC, backups, hot spares, and touchscreen displays",
+        "QA: Worked on-site with the Check Pilot to integrate last-minute look-and-feel changes/fixes"
+      ]
+    },
+    {
+      "company": "JPA Inc",
+      "position": "Electrical IO Specialist",
+      "summary": "Hacking on commercial full flight aircraft simulators for fun and profit",
+      "startDate": "2004-07",
+      "endDate": "2008-07",
+      "highlights": [
+        "Hardware: Designed, implemented, installed, and updated avionics instruments and systems. Incl EGPWS, TCAS, TAWS, etc",
+        "Hardware: Worked Electrical or Rigging for 5 Level D Flight Simulator Relocations and 2 door trainers",
+        "Tech: Provided on-site support through the Level D FAA baseline certification of a 747-400",
+        "Eng: Researched, red lined, and drew est 200+ electrical prints",
+        "Dev: Designed, built, and maintained the company online presence"
+      ]
+    },
+    {
+      "company": "SATCO (Spiral Aviation Training Company) LLC",
+      "position": "Flight Simulator Manufacturing Specialist",
+      "summary": "SATCO manufactured Level D FFS (Full Flight Simulator) and FTD (Fixed Training Devices)",
+      "startDate": "2003-12",
+      "endDate": "2004-07",
+      "highlights": [
+        "Hardware: Manufactured avionics cables, wiring harnesses, instrument panels"
+      ]
+    }
+
+  ],
+  "education": [
+    {
+      "institution": "Metro State University",
+      "area": "Business - Computer Information Systems",
+      "studyType": "Bachelor (Incomplete)",
+      "startDate": "2006-09",
+      "endDate": "2007-05"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Commendation for Exemplary Performance",
+      "date": "2014",
+      "awarder": "USMC",
+      "summary": "Received for my onsite participation as technical SME during the first field deployment of the Tactical Imagery Production System V3.0."
+    }
+  ],
+  "skills": [
+    {
+      "name": "FrontEnd",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "SCSS",
+        "JavaScript",
+        "Web Components",
+        "React",
+        "Angular",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "QA/Testing",
+      "level": "Master",
+      "keywords": [
+        "TapeJS",
+        "Mocha",
+        "Jest",
+        "Selenium"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "level": "Master",
+      "keywords": [
+        "GHActions",
+        "CircleCI",
+        "GitLabCi",
+        "TravisCI"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS",
+        "Docker",
+        "Vagrant"
+      ]
+    },
+    {
+      "name": "BackEnd",
+      "level": "Intermediate",
+      "keywords": [
+        "NodeJS",
+        "Express"
+      ]
+    },
+    {
+      "name": "Design",
+      "level": "Intermediate",
+      "keywords": [
+        "Inkscape",
+        "Photoshop",
+        "Illustrator",
+        "Mockups"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Intermediate",
+      "keywords": [
+        "MySQL",
+        "MSSQL",
+        "Mongo"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Extreme Sports",
+      "keywords": [
+        "Snowboarding",
+        "Wakeboarding",
+        "Rock Climbing"
+      ]
+    }
+  ]
+}
