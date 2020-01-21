@@ -74,7 +74,7 @@
   ],
   "work": [
     {
-      "company": "Open Source",
+      "name": "Open Source",
       "position": "Author, Maintainer, Contributor",
       "website": "https://github.com/evanplaice",
       "summary": "I took a year off to work on Open Source and do grassroots R&D on new/emerging technologies",
@@ -90,7 +90,7 @@
       ]
     },
     {
-      "company": "Coder Technologies Inc",
+      "name": "Coder Technologies Inc",
       "position": "JavaScript Engineer [Mid] - 100% Remote",
       "website": "https://coder.com",
       "summary": "Coder is a cloud-native IDE (Integrated Development Environment) based on VSCode",
@@ -104,7 +104,7 @@
       ]
     },
     {
-      "company": "WiseConnect Inc",
+      "name": "WiseConnect Inc",
       "position": "Lead I&R Technician",
       "website": "https://wiseconnectinc.com",
       "summary": "WiseConnect specializes in Copper and FiberOptic telecommunications installation and support",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "company": "24 Hour Alert Systems",
+      "name": "24 Hour Alert Systems",
       "position": "DISH I&R Technician",
       "summary": "24HR is a contract installation for DISH Network",
       "startDate": "2016-08",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "company": "Strike Group LLC",
+      "name": "Strike Group LLC",
       "position": "FSR (Field Service Representative)/SME (Subject Matter Expert) - 100% Remote",
       "website": "https://strikegroup.org",
       "summary": "SG contracts for the DOD. I worked as a rep for MARCORSYSCOM Combat Camera responsible for the entire West Coast/Pacific AOR",
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "company": "JPA Inc",
+      "name": "JPA Inc",
       "position": "Principal Software Engineer [C#/C/MSSQL] - 100% Remote",
       "summary": "Co-Developed the RIOS product for FedEx through all stages of planning and development",
       "startDate": "2008-07",
@@ -163,7 +163,7 @@
       ]
     },
     {
-      "company": "JPA Inc",
+      "name": "JPA Inc",
       "position": "Electrical IO Specialist",
       "summary": "Hacking on commercial full flight aircraft simulators for fun and profit",
       "startDate": "2004-07",
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "company": "SATCO (Spiral Aviation Training Company) LLC",
+      "name": "SATCO (Spiral Aviation Training Company) LLC",
       "position": "Flight Simulator Manufacturing Specialist",
       "summary": "SATCO manufactured Level D FFS (Full Flight Simulator) and FTD (Fixed Training Devices)",
       "startDate": "2003-12",
