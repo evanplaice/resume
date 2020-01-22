@@ -54,7 +54,7 @@
   },
   "projects": [
     {
-      "name": "",
+      "name": "Name",
       "type": "application",
       "entity": "Smoogle",
       "url": "missdirection.example.com",
@@ -127,7 +127,7 @@
     },
     {
       "name": "Strike Group LLC",
-      "position": "FSR (Field Service Representative)/SME (Subject Matter Expert) - 100% Remote",
+      "position": "Field Representative/SME - 100% Remote",
       "website": "https://strikegroup.org",
       "description": "SG contracts for the DOD. I worked as a rep for MARCORSYSCOM Combat Camera responsible for the entire West Coast/Pacific AOR",
       "startDate": "2011-04",
@@ -146,7 +146,7 @@
     },
     {
       "name": "JPA Inc",
-      "position": "Principal Software Engineer [C#/C/MSSQL] - 100% Remote",
+      "position": "Principal Software Engineer - 100% Remote",
       "description": "Co-Developed the RIOS product for FedEx through all stages of planning and development",
       "startDate": "2008-07",
       "endDate": "2010-02",
