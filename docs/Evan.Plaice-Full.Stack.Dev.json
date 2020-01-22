@@ -17,37 +17,37 @@
 
       {
         "network": "GitHub",
-        "user": "evanplaice",
+        "username": "evanplaice",
         "url": "https://github.com/evanplaice"
       },
       {
         "network": "StackOverflow",
-        "user": "evanplaice",
+        "username": "evanplaice",
         "url": "https://stackoverflow.com/users/290340/evan-plaice"
       },
       {
         "network": "Dev.to",
-        "user": "evanplaice",
+        "username": "evanplaice",
         "url": "https://dev.to/evanplaice"
       },
       {
         "network": "LinkedIn",
-        "user": "evanplaice",
+        "username": "evanplaice",
         "url": "https://www.linkedin.com/in/evanplaice/"
       },
       {
         "network": "Twitter",
-        "user": "evanplaice",
+        "username": "evanplaice",
         "url": "https://twitter.com/evanplaice"
       },
       {
         "network": "GitLab",
-        "user": "evanplaice",
+        "username": "evanplaice",
         "url": "https://gitlab.com/evanplaice"
       },
       {
         "network": "HackerRank",
-        "user": "evanplaice",
+        "username": "evanplaice",
         "url": "https://www.hackerrank.com/evanplaice"
       }
     ]
