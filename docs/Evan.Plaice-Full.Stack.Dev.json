@@ -177,7 +177,7 @@
       ]
     },
     {
-      "name": "SATCO (Spiral Aviation Training Company) LLC",
+      "name": "SATCO LLC",
       "position": "Flight Simulator Manufacturing Specialist",
       "description": "SATCO manufactured Level D FFS (Full Flight Simulator) and FTD (Fixed Training Devices)",
       "startDate": "2003-12",
@@ -191,8 +191,8 @@
   "education": [
     {
       "institution": "Metro State University",
-      "area": "Business - Computer Information Systems",
-      "studyType": "Bachelor (Incomplete)",
+      "area": "Business CIS",
+      "studyType": "Incomplete",
       "startDate": "2006-09",
       "endDate": "2007-05"
     }
