@@ -214,10 +214,9 @@
         "CSS",
         "SCSS",
         "JavaScript",
-        "Web Components",
+        "Web-Components",
         "React",
-        "Angular",
-        "jQuery"
+        "Angular"
       ]
     },
     {
@@ -234,7 +233,7 @@
       "name": "CI/CD",
       "level": "Master",
       "keywords": [
-        "GHActions",
+        "GH-Actions",
         "CircleCI",
         "GitLabCi",
         "TravisCI"
