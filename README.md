@@ -2,21 +2,23 @@
 
 The master branch contains the 'generic' version of my resume. Feature branches contain employer-specific versions.
 
+**Versions**
+- [Evan.Plaice-FullStack[Full].json](https://evanplaice.github.io/resume/Evan.Plaice-FullStack[Full].json)
+- [Evan.Plaice-FullStack[Full].pdf](https://evanplaice.github.io/resume/Evan.Plaice-FullStack[Full].pdf)
+- [Evan.Plaice-FullStack[Short].json](https://evanplaice.github.io/resume/Evan.Plaice-FullStack[Short].json)
+- [Evan.Plaice-FullStack[Short].pdf](https://evanplaice.github.io/resume/Evan.Plaice-FullStack[Short].pdf)
+
 ## Usage
 
-Setup points the utility scripts to the correct source resume.json file.
+Create/update a `resume.json` file in the project root
 
-```sh
-npm run setup [resume.json]
-```
-
-Once that's done you can either validate...
+Validate the resume contents with
 
 ```sh
 npm run validate
 ```
 
-Or, generate the output as HTML/PDF
+Build the JSON/HTML/PDF outputs
 
 ```sh
 npm run build
