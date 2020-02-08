@@ -12,7 +12,8 @@
     "process:full": "cp resume.json docs/Evan.Plaice-FullStack[Full].json",
     "process:short": "node ./lib/filter.js resume.json ./docs/Evan.Plaice-FullStack[Short].json",
     "create:full": "node ./lib/create.js docs/Evan.Plaice-FullStack[Full].json docs/Evan.Plaice-FullStack[Full].pdf positive",
-    "create:short": "node ./lib/create.js docs/Evan.Plaice-FullStack[Short].json docs/Evan.Plaice-FullStack[Short].pdf positive"
+    "create:short": "node ./lib/create.js docs/Evan.Plaice-FullStack[Short].json docs/Evan.Plaice-FullStack[Short].pdf positive",
+    "postversion": "git push --follow-tags"
   },
   "devDependencies": {
     "puppeteer": "^2.0.0",
