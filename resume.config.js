@@ -1,48 +1,33 @@
 module.exports = {
-  noDates: true,
   sections: [
-    'name',
-    'meta',
-    'info',
-    'contact',
-    // 'location',
-    'employment',
-    'projects',
+    'basics',
+    // 'profiles'
+    'work',
+    'volunteer',
+    'education',
+    // 'awards',
+    // 'publications',
     'skills',
-    // 'education',
-    // 'affiliation',
-    // 'service',
-    // 'disposition',
-    // 'writing',
-    // 'reading',
-    // 'speaking',
-    // 'governance',
-    //'recognition',
-    // 'samples',
-    // 'social',
-    // 'references',
-    // 'testimonials',
-    // 'extracurricular',
-    // 'interests',
-    // 'languages';
+    // 'languages',
+    'interests',
+    'references',
+    'projects',
+    // 'meta'
   ],
   jobs: [
-    'Coder INC',
-    // 'WiseConnect INC',
-    //'24 Hour Alert Systems',
+    'Open Source',
+    'Coder Technologies Inc',
+    // 'WiseConnect Inc',
+    // '24 Hour Alert Systems',
     // 'Strike Group LLC',
-    'JPA INC',
-    //'SATCO LLC'
+    'JPA Inc (RIOS)',
+    //'JPA Inc'
   ],
   projects: [
-    '@vanillawc [OSS]',
-    'Coder.com [Proprietary]',
-    // 'absurdum [OSS]',
-    //'ng2-resume [OSS]',
-    //'ng2-markdown [OSS]',
-    //'node-ftpsync [OSS]',
-    'jquery-csv [OSS]',
-    // 'SharpPcap/Packet.Net [OSS]',
-    'RIOS [Proprietary]'
+    '@VanillaWC',
+    '@VanillaES',
+    'Coder.com',
+    'jQuery-CSV',
+    'RIOS'
   ]
 }

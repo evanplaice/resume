@@ -3,13 +3,20 @@
   "version": "1.1.0",
   "description": "A repo to track my resume",
   "author": "Evan Plaice",
-  "license": "CC-BY-SA",
+  "license": "CC-BY-SA-4.0",
   "scripts": {
-    "setup": "node ./lib/setup.js",
-    "validate": "npx hackmyresume VALIDATE ./src/Evan.Plaice-Full.Stack.Dev.json",
-    "build": "npm run validate && npm run build:filter && npm run build:build && npm run build:clean",
-    "build:filter": "node ./lib/filter.js ./src/Evan.Plaice-Full.Stack.Dev.json ./dist/tmp.json",
-    "build:build": "npx hackmyresume BUILD ./dist/tmp.json TO ./dist/Evan.Plaice-Full.Stack.Dev.html ./dist/Evan.Plaice-Full.Stack.Dev.pdf -t positive",
-    "build:clean": "rm ./dist/compact-html.css && rm ./dist/compact-pdf.css && rm ./dist/Evan.Plaice-Full.Stack.Dev.pdf.html && rm ./dist/tmp.json"
+    "build": "npm run build:full && npm run build:short",
+    "validate": "node lib/validate.js resume.json",
+    "build:full": "npm run validate && npm run process:full && npm run create:full",
+    "build:short": "npm run validate && npm run process:short && npm run create:short",
+    "process:full": "cp resume.json docs/Evan.Plaice-FullStack[Full].json",
+    "process:short": "node ./lib/filter.js resume.json ./docs/Evan.Plaice-FullStack[Short].json",
+    "create:full": "node ./lib/create.js docs/Evan.Plaice-FullStack[Full].json docs/Evan.Plaice-FullStack[Full].pdf positive",
+    "create:short": "node ./lib/create.js docs/Evan.Plaice-FullStack[Short].json docs/Evan.Plaice-FullStack[Short].pdf positive"
+  },
+  "devDependencies": {
+    "puppeteer": "^2.0.0",
+    "resume-cli": "^1.2.7",
+    "resume-schema": "^0.0.18"
   }
 }

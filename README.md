@@ -26,57 +26,31 @@ npm run build
 
 Since it's usually desirable to trim a resume down to a consumable size, this utility includes the ability to selectively add/remove different sections of the source.
 
-The options include:
-
+*resume.config.js*
 ```javascript
 module.exports = {
-	// Display/Hide dates
-  noDates: true,
-  // Include/Exclude entire sections
+  // Whitelist Sections
   sections: [
-    'name',
-    'meta',
-    'info',
-    'contact',
-    // 'location',
-    'employment',
-    'projects',
+    'basics',
+    'work',
+    'volunteer',
+    'education',
     'skills',
-    // 'education',
-    // 'affiliation',
-    // 'service',
-    // 'disposition',
-    // 'writing',
-    // 'reading',
-    // 'speaking',
-    // 'governance',
-    //'recognition',
-    // 'samples',
-    // 'social',
-    // 'references',
-    // 'testimonials',
-    // 'extracurricular',
-    // 'interests',
-    // 'languages';
+    'interests',
+    'references',
+    'projects',
   ],
-  // Include/exclude employers (ie matches employment.employer)
+  // Whitelist Jobs by Employer Name
   jobs: [
-    'Coder.inc',
-    // 'WiseConnect Inc.',
-    //'24 Hour Alert Systems',
-    'Strike Group LLC.',
-    'Joel Plaice & Associates Inc.',
-    //'Spiral Aviation Training Company'
+    'Open Source',
+    'Coder Technologies Inc',
+    'JPA Inc (RIOS)'
   ],
-  // Include/Exclude projects (ie matches projects.title)
+  // Whitelist Projects by Name
   projects: [
-    'absurdum (OSS)',
-    //'ng2-resume (OSS)',
-    //'ng2-markdown (OSS)',
-    'node-ftpsync (OSS)',
-    'jquery-csv (OSS)',
-    'SharpPcap/Packet.Net (OSS)',
-    'Replacement Instructor Operating Station (Proprietary)'
+    '@VanillaWC',
+    '@VanillaES',
+    'RIOS'
   ]
 }
 ```
