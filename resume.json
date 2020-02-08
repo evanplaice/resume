@@ -2,17 +2,9 @@
   "basics": {
     "name": "Evan Plaice",
     "label": "FullStack Engineer",
-    "picture": "",
     "email": "evanplaice@gmail.com",
     "website": "http://evanplaice.com",
     "summary": "Full-Stack Developer (3+ years FTE, 10+ OpenSource). Specialties: Networking, Parsing, Application Development, Open Source Expert. Software Dev Generalist. I work best in small, highly specialized teams. Well versed in training, mentorship, and leadership roles.",
-    "location": {
-      "address": "225 CR 640",
-      "postalCode": "80446",
-      "city": "Granby",
-      "countryCode": "US",
-      "region": "Colorado"
-    },
     "profiles": [
       {
         "network": "GitHub",
