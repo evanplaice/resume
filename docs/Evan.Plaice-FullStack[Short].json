@@ -121,7 +121,9 @@
       "keywords": [
         "JavaScript",
         "Typescript",
-        "React"
+        "React",
+        "Selenium",
+        "Monaco"
       ]
     },
     {
@@ -139,25 +141,50 @@
         "500k+ Downloads"
       ],
       "keywords": [
-        "JavaScript"
+        "JavaScript",
+        "Parser"
+      ]
+    },
+    {
+      "name": "Packetnet",
+      "type": "Library",
+      "description": "An open source framework for capturing, parsing, and formatting network packets",
+      "startDate": "2010-12-28",
+      "endDate": "2018-09-18",
+      "roles": [
+        "Contributor"
+      ],
+      "highlights": [
+        "Extended support for TCP, UDP, IPv4, IPv6",
+        "Added IGMPv2, LLDP, Wake-on-Lan protocols",
+        "Added/improved unit and performance tests"
+      ],
+      "keywords": [
+        "C#",
+        "NUnit",
+        "PCAP"
       ]
     },
     {
       "name": "RIOS",
       "type": "Application",
       "description": "An Instructor Operating Station (ie touchscreen Interface) for a 737-400 Flight Simulator",
-      "startDate": "2018-02-05",
-      "endDate": "2018-09-18",
+      "startDate": "2008-07-01",
+      "endDate": "2010-02-01",
       "roles": [
         "Principal Developer"
       ],
       "highlights": [
         "Passed 3 9s of uptime over 3 months",
-        "Full SDLC (Software Development Lifecycle)"
+        "Full SDLC (Software Development Lifecycle)",
+        "Implemented the multi-application IPC and data layers",
+        "Built a custom Layer-2 networking protocol client/server"
       ],
       "keywords": [
         "C#",
-        "MSSQL"
+        "MSSQL",
+        "Networking",
+        "Windows2K"
       ]
     }
   ],

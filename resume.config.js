@@ -28,6 +28,7 @@ module.exports = {
     '@VanillaES',
     'Coder.com',
     'jQuery-CSV',
+    'Packetnet',
     'RIOS'
   ]
 }
