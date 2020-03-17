@@ -50,12 +50,13 @@
       "website": "https://github.com/evanplaice",
       "description": "Took a year hiatus to work on Open Source R&D new/emerging technologies",
       "startDate": "2019-01-01",
-      "endDate": "2020-01",
+      "endDate": "2020-01-01",
       "highlights": [
-        "Dev: Created the @VanillaWC Organization and published 14 web components",
-        "Dev: Created the @VanillaES Organization, published 4 libraries, and 3 CLI tools",
+        "Dev: Created the VanillaWC GitHub organization and published 14 web components",
+        "Dev: Created the VanillaES GitHub oganization, published 4 libraries, and 3 CLI tools",
         "Dev: Landed the 'ESM Compatibility' RFC and PR into ESLint core",
         "Community: Participated on node/modules team planning ESM support for Node",
+        "Community: Joined JSONResume as a Maintainer",
         "R&D: Established 'Best Practices' for working with standard Web Components",
         "R&D: Established 'Best Practices' for developing Universal JS libraries and tooling" 
       ]
@@ -111,6 +112,7 @@
         "Leadership: Led semi-annual training sessions on TIPS (Tactical Imagery Production System) deployment",
         "Leadership: Fielded the TIPS on 3 training evolutions (ie large scale deployment exercises)",
         "Dev: Designed, built, and maintained company's online presence @ StrikeGroup.org",
+        "Dev: Automated processes to generate, verify, and distribute documentation and digital assets",
         "Credentials: Earned 2 Xerox MFD Certifications and acquired a 'Public Trust' clearance",
         "Awards: Received a 'Commendation for Exemplary Performance' for my role in DesertScimitar14"
       ]
@@ -249,7 +251,7 @@
       ]
     },
     {
-      "name": "Packetnet",
+      "name": "Packet.net",
       "type": "Library",
       "description": "An open source framework for capturing, parsing, and formatting network packets",
       "startDate": "2010-12-28",
@@ -364,10 +366,10 @@
   ],
   "awards": [
     {
-      "title": "Commendation for Performance",
+      "title": "Certificate of Commendation",
       "date": "2014-06-30",
-      "awarder": "USMC",
-      "summary": "Received for my onsite participation as technical SME during the first field deployment of the Tactical Imagery Production System V3.0."
+      "awarder": "United States Marine Corps",
+      "summary": "Issued for exemplary performance In support of Desert Scimitar '14. Including directing the first successful deployment of the TIPS (Tactical Imagery Production System) 3.0 in a field environment."
     }
   ],
   "interests": [

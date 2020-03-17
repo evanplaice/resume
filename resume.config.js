@@ -5,7 +5,7 @@ module.exports = {
     'work',
     'volunteer',
     'education',
-    // 'awards',
+    'awards',
     // 'publications',
     'skills',
     // 'languages',

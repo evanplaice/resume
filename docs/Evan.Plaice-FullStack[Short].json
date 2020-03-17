@@ -13,12 +13,13 @@
       "website": "https://github.com/evanplaice",
       "description": "Took a year hiatus to work on Open Source R&D new/emerging technologies",
       "startDate": "2019-01-01",
-      "endDate": "2020-01",
+      "endDate": "2020-01-01",
       "highlights": [
-        "Dev: Created the @VanillaWC Organization and published 14 web components",
-        "Dev: Created the @VanillaES Organization, published 4 libraries, and 3 CLI tools",
+        "Dev: Created the VanillaWC GitHub organization and published 14 web components",
+        "Dev: Created the VanillaES GitHub oganization, published 4 libraries, and 3 CLI tools",
         "Dev: Landed the 'ESM Compatibility' RFC and PR into ESLint core",
         "Community: Participated on node/modules team planning ESM support for Node",
+        "Community: Joined JSONResume as a Maintainer",
         "R&D: Established 'Best Practices' for working with standard Web Components",
         "R&D: Established 'Best Practices' for developing Universal JS libraries and tooling"
       ]
@@ -146,26 +147,6 @@
       ]
     },
     {
-      "name": "Packetnet",
-      "type": "Library",
-      "description": "An open source framework for capturing, parsing, and formatting network packets",
-      "startDate": "2010-12-28",
-      "endDate": "2018-09-18",
-      "roles": [
-        "Contributor"
-      ],
-      "highlights": [
-        "Extended support for TCP, UDP, IPv4, IPv6",
-        "Added IGMPv2, LLDP, Wake-on-Lan protocols",
-        "Added/improved unit and performance tests"
-      ],
-      "keywords": [
-        "C#",
-        "NUnit",
-        "PCAP"
-      ]
-    },
-    {
       "name": "RIOS",
       "type": "Application",
       "description": "An Instructor Operating Station (ie touchscreen Interface) for a 737-400 Flight Simulator",
@@ -257,6 +238,14 @@
         "MSSQL",
         "Mongo"
       ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Certificate of Commendation",
+      "date": "2014-06-30",
+      "awarder": "United States Marine Corps",
+      "summary": "Issued for exemplary performance In support of Desert Scimitar '14. Including directing the first successful deployment of the TIPS (Tactical Imagery Production System) 3.0 in a field environment."
     }
   ],
   "interests": [
