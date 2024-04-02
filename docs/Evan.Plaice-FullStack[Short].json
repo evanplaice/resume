@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Evan Plaice",
-    "label": "FullStack Engineer",
+    "label": "Senior FullStack Engineer",
     "email": "evanplaice@gmail.com",
-    "phone": "970-557-3129",
+    "phone": "720-378-1041",
     "website": "http://evanplaice.com",
-    "summary": "FullStack Developer (3+ years FTE, 10+ OpenSource). I'm an innovator at heart, not satisfied with the common or easy path. I'm seeking a role where I can dig deep and have a high degree of impact."
+    "summary": "Senoir FullStack Developer (4+ years FTE, 11+ OpenSource, 17+ Web Dev). I'm an innovator at heart, not satisfied with the status quo; I adjust and adapt to the unique circumstances of my environment then push the bar higher."
   },
   "work": [
     {
@@ -14,7 +14,7 @@
       "website": "https://github.com/evanplaice",
       "description": "Took a year hiatus to work on Open Source R&D new/emerging technologies",
       "startDate": "2019-01-01",
-      "endDate": "2020-01-01",
+      "endDate": "2021-12-15",
       "highlights": [
         "Dev: Created the VanillaWC GitHub organization and published 14 web components",
         "Dev: Created the VanillaES GitHub oganization, published 4 libraries, and 3 CLI tools",
@@ -33,11 +33,34 @@
       "startDate": "2018-02-03",
       "endDate": "2018-09-18",
       "highlights": [
-        "Dev: Worked on the main product UI from the early alpha stages through product launch (Typescript)",
+        "Dev: Developed the main product UI from the early alpha stages through product launch (Typescript)",
         "Dev: Scaffolded the VSCode plugin integration API (Typescript)",
         "Dev: Contributed to and polished the FrontEnd website UI leading up to launch (Typescript React)",
         "QA: Built out the E2E testing automation, including integration with CI/CD (Selenium)"
       ]
+    },
+    {
+      "name": "WiseConnect Inc",
+      "position": "Lead I&R Technician",
+      "website": "https://wiseconnectinc.com",
+      "description": "WiseConnect specializes in Copper and FiberOptic telecommunications installation and support",
+      "startDate": "2017-05-01",
+      "endDate": "2017-11-23"
+    },
+    {
+      "name": "24 Hour Alert Systems",
+      "position": "DISH I&R Technician",
+      "description": "24HR is a contract installation for DISH Network",
+      "startDate": "2016-09-01",
+      "endDate": "2017-05-01"
+    },
+    {
+      "name": "Strike Group LLC",
+      "position": "Field Representative/SME - 100% Remote",
+      "website": "https://strikegroup.org",
+      "description": "SG is a DVSOB certified DOD contractor. I represented MARCORSYSCOM ComCam for West Coast/Pacific AOR",
+      "startDate": "2011-04-11",
+      "endDate": "2015-03-27"
     },
     {
       "name": "JPA Inc (RIOS)",
@@ -51,11 +74,17 @@
         "Dev: Build parsers for ARINC-424, the host datapool, and ported the floating-point conversion lib from C to C#",
         "Dev: Implemented a custom Layer 2 network protocol client/server for host interaction",
         "Dev: Implemented the database layer. Incl datapool, ARINC424, cache layer, queries, and stored procedures",
-        "Dev: Build dynamic 2D projections to graph the Glideslope and ILS deviation plots",
         "Dev/Tech: Performed the onsite installation and host integration per the agreed (7 day) schedule",
         "Hardware: Specified and assembled the rackmount PC, backups, hot spares, and touchscreen displays",
         "QA: Worked on-site with the Check Pilot to integrate last-minute look-and-feel changes/fixes"
       ]
+    },
+    {
+      "name": "JPA Inc",
+      "position": "Electrical IO Specialist",
+      "description": "Hacking on commercial full flight aircraft simulators for fun and profit",
+      "startDate": "2004-07-01",
+      "endDate": "2008-07-01"
     }
   ],
   "education": [
@@ -78,9 +107,6 @@
       "roles": [
         "Founder"
       ],
-      "highlights": [
-        "14 Components Published"
-      ],
       "keywords": [
         "Web Components",
         "Standards",
@@ -97,10 +123,6 @@
       "roles": [
         "Founder"
       ],
-      "highlights": [
-        "4 Libraries Published",
-        "2 CLIs Published"
-      ],
       "keywords": [
         "ECMAScript",
         "Standards",
@@ -116,9 +138,6 @@
       "endDate": "2018-09-18",
       "roles": [
         "Individual Contributor"
-      ],
-      "highlights": [
-        "Worked through product launch"
       ],
       "keywords": [
         "JavaScript",
@@ -138,10 +157,6 @@
       "roles": [
         "Author"
       ],
-      "highlights": [
-        "500+ Stars on GitHub",
-        "500k+ Downloads"
-      ],
       "keywords": [
         "JavaScript",
         "Parser"
@@ -155,12 +170,6 @@
       "endDate": "2010-02-01",
       "roles": [
         "Principal Developer"
-      ],
-      "highlights": [
-        "Passed 3 9s of uptime over 3 months",
-        "Full SDLC (Software Development Lifecycle)",
-        "Implemented the multi-application IPC and data layers",
-        "Built a custom Layer-2 networking protocol client/server"
       ],
       "keywords": [
         "C#",
@@ -176,12 +185,21 @@
       "level": "Master",
       "keywords": [
         "HTML/CSS",
-        "SCSS",
         "JavaScript",
         "Typescript",
         "Web-Components",
         "React",
         "Angular"
+      ]
+    },
+    {
+      "name": "BackEnd",
+      "level": "Master",
+      "keywords": [
+        "Python",
+        "ASP.NET",
+        "NodeJS",
+        "PHP"
       ]
     },
     {
@@ -198,14 +216,14 @@
       "name": "CI/CD",
       "level": "Master",
       "keywords": [
-        "GH-Actions",
+        "Jenkins",
+        "GH Actions",
         "CircleCI",
-        "GitLabCi",
-        "TravisCI"
+        "GitLabCI"
       ]
     },
     {
-      "name": "DevOps",
+      "name": "Cloud/DevOps",
       "level": "Intermediate",
       "keywords": [
         "AWS",
@@ -214,30 +232,12 @@
       ]
     },
     {
-      "name": "BackEnd",
-      "level": "Intermediate",
-      "keywords": [
-        "NodeJS",
-        "Express"
-      ]
-    },
-    {
-      "name": "Design",
-      "level": "Intermediate",
-      "keywords": [
-        "Inkscape",
-        "Photoshop",
-        "Illustrator",
-        "Mockups"
-      ]
-    },
-    {
       "name": "Database",
       "level": "Intermediate",
       "keywords": [
-        "MySQL",
+        "MySQL/RDS",
         "MSSQL",
-        "Mongo"
+        "AWS DynamoDB"
       ]
     }
   ],
@@ -255,6 +255,7 @@
       "keywords": [
         "Snowboarding",
         "Wakeboarding",
+        "Wakesurfing",
         "Rock Climbing"
       ]
     }
