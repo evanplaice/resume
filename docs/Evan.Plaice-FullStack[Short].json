@@ -1,20 +1,48 @@
 {
   "basics": {
     "name": "Evan Plaice",
-    "label": "Senior FullStack Engineer",
+    "label": "Senior FullStack Developer",
     "email": "evanplaice@gmail.com",
     "phone": "720-378-1041",
     "website": "http://evanplaice.com",
-    "summary": "Senoir FullStack Developer (4+ years FTE, 11+ OpenSource, 17+ Web Dev). I'm an innovator at heart, not satisfied with the status quo; I adjust and adapt to the unique circumstances of my environment then push the bar higher."
+    "summary": "Experience: 7+ Years Full-Time Professional , 15+ Years OpenSource. I'm an innovator at heart, not satisfied with the status quo; I adjust and adapt to requirements then push the bar higher."
   },
   "work": [
+    {
+      "name": "BayNova LLC",
+      "position": "Senior FullStack Developer [Remote]",
+      "description": "USDA EAS Contract - Develop, maintain, and modernize mission-critical software systems for the Forest Service and USDA",
+      "startDate": "2022-01-18",
+      "endDate": "2025-09-30",
+      "highlights": [
+        "Dev: Rewrite CFETS FrontEnd to new design spec and backend from ASP.NET MVT to ASP.NET Core",
+        "Dev: AFF Feature Development and BackEnd rewrite from Python CGI -> Python FastAPI",
+        "Dev: Implemented 6 Delegate OAuth 2.0 to integrate with govt-specific Auth Services",
+        "QA/Testing: Established an integration testing suite for CFETS (xUnit)",
+        "Security: Modernize and update multiple mission-critical projects to meet FS 800.53 standards"
+      ]
+    },
+    {
+      "name": "AceInfo/Guidehouse",
+      "position": "Senior FullStack Developer - Remote",
+      "description": "USDA EAS Contract - Develop and maintain AFF (Automated Flight Following) and RD Renewable Energy for USDA.gov",
+      "startDate": "2020-08-03",
+      "endDate": "2022-01-17",
+      "highlights": [
+        "Dev: Completed the previously incomplete rewrite of EnergyWeb from IBM Domino -> C#/ASP.NET",
+        "Org: Modernized development practices and established a review/test/release workflow",
+        "DB/Cloud: Migrated the SQL server from AWS EC2 to a manged AWS RDS instance",
+        "QA/Testing: Built a complete integration test suite for AFF (pytest)",
+        "Org: Participated on the Forest Service and USDA CI/CD pilot project"
+      ]
+    },
     {
       "name": "Open Source",
       "position": "Author, Maintainer, Contributor",
       "website": "https://github.com/evanplaice",
-      "description": "Took a year hiatus to work on Open Source R&D new/emerging technologies",
-      "startDate": "2019-01-01",
-      "endDate": "2021-12-15",
+      "description": "Took a hiatus to upskill and work on Open Source R&D new/emerging technologies",
+      "startDate": "2018-09-01",
+      "endDate": "2020-08-02",
       "highlights": [
         "Dev: Created the VanillaWC GitHub organization and published 14 web components",
         "Dev: Created the VanillaES GitHub oganization, published 4 libraries, and 3 CLI tools",
@@ -22,12 +50,15 @@
         "Community: Participated on node/modules team planning ESM support for Node",
         "Community: Joined JSONResume as a Maintainer",
         "R&D: Established 'Best Practices' for working with standard Web Components",
-        "R&D: Established 'Best Practices' for developing Universal JS libraries and tooling"
+        "R&D: Established 'Best Practices' for developing Universal JS libraries and tooling",
+        "",
+        "",
+        ""
       ]
     },
     {
       "name": "Coder Technologies Inc",
-      "position": "JavaScript Engineer - 100% Remote",
+      "position": "Frontend Developer [Remote]",
       "website": "https://coder.com",
       "description": "Coder is a cloud-native IDE (Integrated Development Environment) based on VSCode",
       "startDate": "2018-02-03",
@@ -40,36 +71,13 @@
       ]
     },
     {
-      "name": "WiseConnect Inc",
-      "position": "Lead I&R Technician",
-      "website": "https://wiseconnectinc.com",
-      "description": "WiseConnect specializes in Copper and FiberOptic telecommunications installation and support",
-      "startDate": "2017-05-01",
-      "endDate": "2017-11-23"
-    },
-    {
-      "name": "24 Hour Alert Systems",
-      "position": "DISH I&R Technician",
-      "description": "24HR is a contract installation for DISH Network",
-      "startDate": "2016-09-01",
-      "endDate": "2017-05-01"
-    },
-    {
-      "name": "Strike Group LLC",
-      "position": "Field Representative/SME - 100% Remote",
-      "website": "https://strikegroup.org",
-      "description": "SG is a DVSOB certified DOD contractor. I represented MARCORSYSCOM ComCam for West Coast/Pacific AOR",
-      "startDate": "2011-04-11",
-      "endDate": "2015-03-27"
-    },
-    {
       "name": "JPA Inc (RIOS)",
-      "position": "Principal Software Engineer - 100% Remote",
+      "position": "Software Engineer [Remote]",
       "description": "Co-Developed the RIOS for FedEx throughout all stages of planning and development",
       "startDate": "2008-07-01",
       "endDate": "2010-02-01",
       "highlights": [
-        "Product: Led product development from the PDR (Preliminary Design Review) thru Acceptance",
+        "Product: Led product development from the PDR (Preliminary Design Review) through Acceptance",
         "Arch: Designed the communications, systems, n-tier, and IPC (Inter Process Communications) architecture",
         "Dev: Build parsers for ARINC-424, the host datapool, and ported the floating-point conversion lib from C to C#",
         "Dev: Implemented a custom Layer 2 network protocol client/server for host interaction",
@@ -78,13 +86,6 @@
         "Hardware: Specified and assembled the rackmount PC, backups, hot spares, and touchscreen displays",
         "QA: Worked on-site with the Check Pilot to integrate last-minute look-and-feel changes/fixes"
       ]
-    },
-    {
-      "name": "JPA Inc",
-      "position": "Electrical IO Specialist",
-      "description": "Hacking on commercial full flight aircraft simulators for fun and profit",
-      "startDate": "2004-07-01",
-      "endDate": "2008-07-01"
     }
   ],
   "education": [
@@ -188,8 +189,8 @@
         "JavaScript",
         "Typescript",
         "Web-Components",
-        "React",
-        "Angular"
+        "Angular",
+        "React"
       ]
     },
     {
@@ -206,10 +207,10 @@
       "name": "QA/Testing",
       "level": "Master",
       "keywords": [
-        "TapeJS",
-        "Mocha",
+        "PyTest",
         "Jest",
-        "Selenium"
+        "xUnit",
+        "Playwright"
       ]
     },
     {
@@ -218,7 +219,6 @@
       "keywords": [
         "Jenkins",
         "GH Actions",
-        "CircleCI",
         "GitLabCI"
       ]
     },
@@ -235,9 +235,18 @@
       "name": "Database",
       "level": "Intermediate",
       "keywords": [
-        "MySQL/RDS",
+        "MySQL",
         "MSSQL",
         "AWS DynamoDB"
+      ]
+    },
+    {
+      "name": "Security",
+      "level": "Intermediate",
+      "keywords": [
+        "NIST-800.53",
+        "ATO",
+        "Packet-Analysis"
       ]
     }
   ],
@@ -254,8 +263,8 @@
       "name": "Extreme Sports",
       "keywords": [
         "Snowboarding",
-        "Wakeboarding",
-        "Wakesurfing",
+        "Alpine Touring",
+        "Wakefoiling",
         "Rock Climbing"
       ]
     }

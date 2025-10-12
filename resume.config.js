@@ -15,13 +15,15 @@ module.exports = {
     // 'meta'
   ],
   jobs: [
+    'BayNova LLC',
+    'AceInfo/Guidehouse',
     'Open Source',
     'Coder Technologies Inc',
-    'WiseConnect Inc',
-    '24 Hour Alert Systems',
-    'Strike Group LLC',
+    //'WiseConnect Inc',
+    //'24 Hour Alert Systems',
+    //'Strike Group LLC',
     'JPA Inc (RIOS)',
-    'JPA Inc'
+    //'JPA Inc'
   ],
   projects: [
     '@VanillaWC',
